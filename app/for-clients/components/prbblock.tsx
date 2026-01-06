@@ -45,7 +45,7 @@ const PRBBlock: React.FC<PRBBlockProps> = ({
       <div className="absolute w-full h-full z-50">
         <div className=" relative pt-[10%] lg:pt-[12%] xl:pt-[12%] px-[15%] sm:px-[15%] lg:px-[12%] 2xl:px-[15%] h-full w-full">
           <div className="flex items-center ">
-            <div className="relative w-14 h-14  md:w-10 md:h-10 lg:w-12 lg:h-12 2xl:w-20 2xl:h-20 aspect-square">
+            <div className="relative w-14 h-14  md:w-10 md:h-10 lg:w-12 lg:h-12 2xl:w-18 2xl:h-18 aspect-square">
               <Image
                 src={image}
                 alt={titleText}
