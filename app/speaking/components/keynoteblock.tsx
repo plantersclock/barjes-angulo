@@ -1,7 +1,67 @@
+"use client";
+
+import Link from "next/link";
 import React from "react";
 
-const KeynoteBlock = () => {
-  return <div>KeynoteBlock</div>;
+interface KeynoteBlockProps {
+  titleText: string;
+  boldText: string;
+  regularText: string;
+  backgroundColor: string;
+  linkText: string;
+  linkHref: string;
+  hoverColor?: string;
+  bullet1: string;
+  bullet2: string;
+  bullet3: string;
+}
+
+const KeynoteBlock: React.FC<KeynoteBlockProps> = ({
+  titleText,
+  boldText,
+  regularText,
+  backgroundColor,
+  linkText,
+  linkHref,
+  bullet1,
+  bullet2,
+  bullet3,
+}) => {
+  return (
+    <div
+      className="relative w-full h-full text-white rounded-md aspect-5/7 sm:aspect-9/7 lg:aspect-5/7 min-h-125 sm:min-h-0 max-h-125 sm:max-h-screen"
+      style={{ backgroundColor }}
+    >
+      {/* Triangle in top-right corner */}
+      <div className="absolute top-0 right-0 w-0 h-0 border-l-[10vw] sm:border-l-[5vw] lg:border-l-[2vw] border-l-transparent border-t-[10vw] sm:border-t-[5vw] lg:border-t-[2vw] border-t-white"></div>
+
+      {/* Content at bottom */}
+      <div className="absolute w-full h-full z-50">
+        <div className=" relative pt-[10%] lg:pt-[15%] xl:pt-[20%] px-[10%] sm:px-[15%] lg:px-[10%] xl:px-[12%] 2xl:px-[15%] h-full w-full">
+          <h2 className="mb-4 leading-none font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-3xl xl:text-4xl 2xl:text-[2.6rem]">
+            {titleText}
+          </h2>
+          <p className="text-base md:text-lg lg:text-sm xl:text-base 2xl:text-lg leading-tight">
+            <span className="font-semibold">{boldText}</span> {regularText}
+          </p>
+          <div className="relative sm:absolute left-0 top-4 sm:top-[50%] lg:top-[48%] xl:top-[47%] 2xl:top-[50%]  sm:px-[15%] lg:px-[10%] xl:px-[12%] 2xl:px-[15%]">
+            <h3 className="font-semibold text-lg xl:text-xl">LEARN</h3>
+            <ul className="list-disc list-outside ml-5 mt-3 xl:mt-6 space-y-3 xl:space-y-4 leading-tight text-sm md:text-base lg:text-sm xl:text-base">
+              <li>{bullet1}</li>
+              <li>{bullet2}</li>
+              <li>{bullet3}</li>
+            </ul>
+          </div>
+          <Link
+            href={linkHref}
+            className="absolute bottom-[5%] right-[10%] text-lg lg:text-base  hover:underline flex items-center gap-2 font-eloquia-text font-bold"
+          >
+            <span className="font-bold">→</span> {linkText}
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default KeynoteBlock;
