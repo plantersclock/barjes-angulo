@@ -29,7 +29,7 @@ const KeynoteBlock: React.FC<KeynoteBlockProps> = ({
 }) => {
   return (
     <div
-      className="relative w-full h-full text-white rounded-md aspect-5/7 sm:aspect-9/7 lg:aspect-5/7 min-h-125 sm:min-h-0 max-h-125 sm:max-h-screen"
+      className="relative w-full h-full text-white rounded-md  sm:aspect-9/7 lg:aspect-5/7 min-h-130 sm:min-h-0 max-h-125 sm:max-h-screen"
       style={{ backgroundColor }}
     >
       {/* Triangle in top-right corner */}
