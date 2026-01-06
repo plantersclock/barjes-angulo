@@ -14,7 +14,7 @@ const TwoBoxSection1 = () => {
               But what about maximizing meaning?
             </span>
           </h2>
-          <p className="py-6 text-base sm:text-xs md:text-sm lg:text-xs 2xl:text-sm max-w-[90%]">
+          <p className="py-6 text-base sm:text-xs md:text-sm lg:text-sm 2xl:text-base max-w-[90%] leading-tight">
             {`Barjes’ (bar-jess) approach to financial strategy is life-forward.
             His process starts with who you want to be and what you want to
             achieve, and continues with financial planning and support that

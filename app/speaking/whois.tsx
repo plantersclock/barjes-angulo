@@ -1,22 +1,19 @@
-import Image from "next/image";
 import React from "react";
-import barjesHeadshot from "../images/barjes-headshot.webp";
 import GenericButton from "../components/general/GenericButton";
+import Image from "next/image";
+import barjesSpeaking from "../images/barjes-speaking.jpg";
 
-const TwoBoxSection2 = () => {
+const WhoIs = () => {
   return (
     <div className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
-      <div className="w-full rounded-md bg-theme-gray-500 ">
-        <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[65%] py-12 lg:py-0">
-          <h2 className="font-eloquia-display text-3xl lg:text-3xl xl:text-4xl 2xl:text-4xl font-semibold">
-            Your personal CLFO
+      <div className="w-full rounded-md bg-white ">
+        <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[70%] py-12 lg:py-0">
+          <h2 className="font-eloquia-display text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-semibold">
+            Who is Barjes Angulo?
           </h2>
-          <h3 className="text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl font-semibold">
-            (Chief Life-first Financial Officer)
-          </h3>
-          <p className="py-6 text-base sm:text-xs md:text-sm lg:text-sm 2xl:text-base max-w-[90%] leading-tight">
-            <span className="font-semibold">Barjes Angulo</span>
-            {` is a financial
+
+          <p className="py-6 text-base sm:text-xs md:text-sm lg:text-sm xl:text-base 2xl:text-lg leading-snug">
+            {`Barjes Angulo is a financial
             strategist, mentor, and speaker who helps self-made business owners
             align their wealth with what matters most. With over two decades of
             experience, Barjes brings a lifestyle-first approach to financial
@@ -31,27 +28,27 @@ const TwoBoxSection2 = () => {
             accountability, and a deep respect for their time, families, and
             aspirations.`}
           </p>
-          <div className="lg:max-w-[60%] xl:max-w-[47%] 2xl:max-w-[45%] flex flex-col">
+          <div className="lg:max-w-[60%] xl:max-w-[50%] 2xl:max-w-[50%] flex flex-col mt-8">
             <GenericButton
-              title="Learn More"
+              title="GET HIS SPEAKER SHEET"
               linkHref="#"
               backgroundColor="#0036fd"
-              cornerColor="border-t-theme-gray-500"
             />
           </div>
         </div>
       </div>
-      <div className="w-full rounded-md aspect-square relative overflow-hidden">
+      <div className="w-full rounded-md aspect-7/9 relative overflow-hidden">
         <Image
-          src={barjesHeadshot}
-          alt="Barjes Headshot"
-          fill
+          src={barjesSpeaking}
+          alt="Barjes Speaking"
+          height={900}
+          width={700}
           className="object-cover w-full h-full "
-          quality={50}
+          quality={70}
         />
       </div>
     </div>
   );
 };
 
-export default TwoBoxSection2;
+export default WhoIs;

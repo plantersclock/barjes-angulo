@@ -22,7 +22,7 @@ const Hero = () => {
           {`Shouldn’t your financial plan be as meaningful as the life it
           supports?`}
         </h1>
-        <h2 className="text-sm 2xl:text-base py-4 max-w-[90%] lg:max-w-[75%]">
+        <h2 className="text-sm 2xl:text-base py-6 max-w-[90%] lg:max-w-[75%] leading-snug">
           <span className="font-semibold leading-tight ">
             Work. Kids. Hobbies. Goals.
           </span>{" "}

@@ -116,7 +116,7 @@ const TopNav = () => {
             >
               CLIENT ACCESS
             </Link>
-            <div className="lg:max-w-[60%] xl:max-w-[47%] 2xl:max-w-[45%] ">
+            <div className="lg:max-w-[60%] xl:max-w-[47%] 2xl:max-w-[45%]">
               <GenericButton
                 title="Work With Barjes"
                 linkHref="#"

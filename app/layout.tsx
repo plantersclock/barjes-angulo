@@ -200,7 +200,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${eloquiaDisplay.variable} ${eloquiaText.variable} antialiased font-arial`}
+        className={`${eloquiaDisplay.variable} ${eloquiaText.variable} antialiased`}
       >
         {/* Navigation */}
         <TopNav />
