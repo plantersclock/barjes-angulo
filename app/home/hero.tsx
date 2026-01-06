@@ -10,10 +10,11 @@ const Hero = () => {
         <Image
           src={barjesHero}
           alt="Barjes Hero"
-          fill
+          width={840}
+          height={650}
           className="scale-[115%] ml-4"
           priority
-          quality={90}
+          quality={80}
         />
       </div>
       <div className="w-full lg:w-[45%] p-[8%] lg:p-[3.5%]">

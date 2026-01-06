@@ -14,7 +14,8 @@ const Hero = () => {
         <Image
           src={barjesCrouch}
           alt="Barjes Angulo crouching"
-          fill
+          height={800}
+          width={700}
           className="object-cover w-full h-full "
           quality={70}
           priority

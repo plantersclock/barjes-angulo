@@ -38,7 +38,7 @@ const TwoBoxSection1 = () => {
           height={600}
           width={700}
           className="object-cover w-full h-full "
-          quality={80}
+          quality={70}
           priority
         />
       </div>
