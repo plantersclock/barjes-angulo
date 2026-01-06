@@ -16,7 +16,8 @@ const Hero = () => {
           alt="Barjes Angulo crouching"
           fill
           className="object-cover w-full h-full "
-          quality={50}
+          quality={70}
+          priority
         />
       </div>
     </div>
