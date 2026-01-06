@@ -1,15 +1,189 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
+import TopNav from "./components/navs/TopNav";
+import Footer from "./components/navs/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const eloquiaDisplay = localFont({
+  src: [
+    {
+      path: "../public/fonts/EloquiaDisplay-Hairline.otf",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-HairlineItalic.otf",
+      weight: "100",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-Thin.otf",
+      weight: "200",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-ThinItalic.otf",
+      weight: "200",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-ExtraLight.otf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-ExtraLightItalic.otf",
+      weight: "300",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-Light.otf",
+      weight: "350",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-LightItalic.otf",
+      weight: "350",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-Regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-Italic.otf",
+      weight: "400",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-Medium.otf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-MediumItalic.otf",
+      weight: "500",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-SemiBold.otf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-SemiBoldItalic.otf",
+      weight: "600",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-Bold.otf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-BoldItalic.otf",
+      weight: "700",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-ExtraBold.otf",
+      weight: "800",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-ExtraBoldItalic.otf",
+      weight: "800",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-Black.otf",
+      weight: "900",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaDisplay-BlackItalic.otf",
+      weight: "900",
+      style: "italic",
+    },
+  ],
+  variable: "--font-eloquia-display",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const eloquiaText = localFont({
+  src: [
+    {
+      path: "../public/fonts/EloquiaText-ExtraLight.otf",
+      weight: "200",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaText-ExtraLightItalic.otf",
+      weight: "200",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaText-Light.otf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaText-LightItalic.otf",
+      weight: "300",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaText-Regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaText-Italic.otf",
+      weight: "400",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaText-Medium.otf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaText-MediumItalic.otf",
+      weight: "500",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaText-SemiBold.otf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaText-SemiBoldItalic.otf",
+      weight: "600",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaText-Bold.otf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaText-BoldItalic.otf",
+      weight: "700",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/EloquiaText-ExtraBold.otf",
+      weight: "800",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/EloquiaText-ExtraBoldItalic.otf",
+      weight: "800",
+      style: "italic",
+    },
+  ],
+  variable: "--font-eloquia-text",
 });
 
 export const metadata: Metadata = {
@@ -25,9 +199,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${eloquiaDisplay.variable} ${eloquiaText.variable} antialiased font-arial`}
       >
-        {children}
+        {/* Navigation */}
+        <TopNav />
+
+        {/* Main content */}
+        <main>{children}</main>
+
+        {/* Footer */}
+        <Footer />
       </body>
     </html>
   );
