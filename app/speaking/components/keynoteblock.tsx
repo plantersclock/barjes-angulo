@@ -30,11 +30,12 @@ const KeynoteBlock: React.FC<KeynoteBlockProps> = ({
   return (
     <div
       className="relative w-full h-full text-white rounded-md  sm:aspect-9/7 lg:aspect-5/7 min-h-130 sm:min-h-0 max-h-125 sm:max-h-screen"
-      style={{ backgroundColor }}
+      style={{
+        clipPath:
+          "polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 0 100%)",
+        backgroundColor,
+      }}
     >
-      {/* Triangle in top-right corner */}
-      <div className="absolute top-0 right-0 w-0 h-0 border-l-[10vw] sm:border-l-[5vw] lg:border-l-[2vw] border-l-transparent border-t-[10vw] sm:border-t-[5vw] lg:border-t-[2vw] border-t-white"></div>
-
       {/* Content at bottom */}
       <div className="absolute w-full h-full z-50">
         <div className=" relative pt-[10%] lg:pt-[15%] xl:pt-[20%] px-[10%] sm:px-[15%] lg:px-[10%] xl:px-[12%] 2xl:px-[15%] h-full w-full">

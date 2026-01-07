@@ -29,7 +29,11 @@ const PRBBlock: React.FC<PRBBlockProps> = ({
   return (
     <div
       className="relative w-full h-full text-white rounded-md aspect-auto md:aspect-square min-h-120 md:min-h-85.5 overflow-hidden"
-      style={{ backgroundColor }}
+      style={{
+        clipPath:
+          "polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 0 100%)",
+        backgroundColor,
+      }}
     >
       {/* Rotated Side Text */}
       <div className="absolute w-full h-full  flex ">
@@ -41,8 +45,6 @@ const PRBBlock: React.FC<PRBBlockProps> = ({
           </div>
         </div>
       </div>
-      {/* Triangle in top-right corner */}
-      <div className="absolute top-0 right-0 w-0 h-0 border-l-[10vw] sm:border-l-[5vw] lg:border-l-[2vw] border-l-transparent border-t-[10vw] sm:border-t-[5vw] lg:border-t-[2vw] border-t-white"></div>
 
       {/* Content at bottom */}
       <div className="absolute w-full h-full z-50">

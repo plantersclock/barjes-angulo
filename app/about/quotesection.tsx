@@ -24,9 +24,13 @@ const QuoteSection = () => {
           </p>
         </div>
       </div>
-      <div className="relative flex items-center w-full text-white rounded-md transition-all duration-200 bg-theme-blue-100">
-        {/* Triangle in top-right corner */}
-        <div className="absolute top-0 right-0 w-0 h-0 border-l-[10vw] sm:border-l-[5vw] lg:border-l-[2vw] border-l-transparent border-t-[10vw] sm:border-t-[5vw] lg:border-t-[2vw] border-t-white"></div>
+      <div
+        className="relative flex items-center w-full text-white rounded-md transition-all duration-200 bg-theme-blue-100"
+        style={{
+          clipPath:
+            "polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 0 100%)",
+        }}
+      >
         <div className="mx-[10%]">
           <h2 className="text-3xl font-semibold font-eloquia-display pt-16">
             {`“Money isn’t the most important thing in the world – but it gives us

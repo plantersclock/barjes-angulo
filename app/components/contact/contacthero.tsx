@@ -1,7 +1,7 @@
 import React from "react";
 import GenericButton from "../general/GenericButton";
 
-const ContactBook = () => {
+const ContactHero = () => {
   return (
     <div className="relative flex flex-col justify-center  h-full  w-full text-white rounded-md transition-all duration-200 bg-theme-blue-900">
       <div className="mx-auto w-[80%] lg:w-[75%] xl:w-[65%] py-12">
@@ -28,9 +28,10 @@ const ContactBook = () => {
               className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
             <input
-              type="text"
-              name="organization"
-              placeholder="Organization"
+              type="tel"
+              name="phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              placeholder="Phone"
               className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
             <input
@@ -56,4 +57,4 @@ const ContactBook = () => {
   );
 };
 
-export default ContactBook;
+export default ContactHero;

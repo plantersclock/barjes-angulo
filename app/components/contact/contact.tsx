@@ -19,20 +19,20 @@ const Contact = () => {
               type="text"
               name="firstName"
               placeholder="First"
-              className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80"
+              className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
             <input
               type="text"
               name="lastName"
               placeholder="Last"
-              className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80"
+              className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
 
             <input
               type="email"
               name="email"
               placeholder="Email"
-              className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80"
+              className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
           </div>
           <div className="flex justify-end mt-1">

@@ -32,25 +32,25 @@ const ContactAdvisor = () => {
               type="text"
               name="name"
               placeholder="Full Name"
-              className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80"
+              className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
 
             <input
               type="email"
               name="email"
               placeholder="Email"
-              className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80"
+              className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
             <input
               type="text"
               name="practiceWebsite"
               placeholder="Practice Website"
-              className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80"
+              className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
           </div>
           <button
             type="submit"
-            className="relative bg-red-200 flex flex-col items-start lg:max-w-[60%] xl:max-w-[47%] 2xl:max-w-[45%]   mt-8"
+            className="relative flex flex-col items-start lg:max-w-[60%] xl:max-w-[47%] 2xl:max-w-[45%]   mt-8"
           >
             <GenericButton
               title="JOIN THE WAITLIST"

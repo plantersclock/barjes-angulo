@@ -23,7 +23,7 @@ const GenericButton: React.FC<GenericButtonProps> = ({
       style={{
         backgroundColor,
         clipPath:
-          "polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%)",
+          "polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%)",
       }}
     >
       <div className="w-full text-center lg:text-left">
