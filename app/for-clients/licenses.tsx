@@ -35,11 +35,11 @@ const Licenses = () => {
   return (
     <div className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
       <div className="w-full ">
-        <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[65%] py-12 lg:py-0">
+        <div className="flex flex-col justify-center mx-auto h-full w-[90%] lg:w-[90%] xl:w-[65%] py-12 lg:py-0">
           <h2 className="font-eloquia-display text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-semibold">
             Licenses + Designations
           </h2>
-          <div className="mt-8">
+          <div className="mt-2 xl:mt-8">
             {licensesData.map((item, index) => (
               <div key={index} className="mt-4">
                 <ExpandableText
@@ -62,7 +62,7 @@ const Licenses = () => {
           alt="Barjes sitting on a stool"
           fill
           className="object-cover w-full h-full "
-          quality={50}
+          quality={70}
         />
       </div>
     </div>

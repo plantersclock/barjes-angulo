@@ -38,9 +38,9 @@ const ExpandableText: React.FC<ExpandableTextProps> = ({
         <span className="text-xl font-semibold hidden group-open:inline">
           −
         </span>
-        <h3 className="font-semibold text-xl">{title}</h3>
+        <h3 className="font-semibold text-lg xl:text-xl">{title}</h3>
       </summary>
-      <p className="text-sm sm:text-base mt-4 whitespace-pre-line">
+      <p className="text-sm xl:text-base mt-4 whitespace-pre-line">
         {description}
       </p>
     </details>
