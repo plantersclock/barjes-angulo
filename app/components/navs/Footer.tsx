@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="col-span-8 lg:col-span-5 2xl:col-span-4 grid grid-cols-2 gap-y-14 lg:grid-cols-4 w-full justify-between mt-12 lg:mt-0">
           <div className="flex flex-col text-sm mx-auto lg:mx-0">
             <h3 className="font-semibold mb-2">ABOUT</h3>
-            <div className="flex flex-col font-light gap-1">
+            <div className="flex flex-col font-light gap-1 select-none">
               <Link href="/">Philosophy</Link>
               <Link href="/">Licenses</Link>
               <Link href="/">Disclosures</Link>
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col text-sm mx-auto lg:mx-0">
             <h3 className="font-semibold mb-2">EXPERTISE</h3>
-            <div className="flex flex-col font-light gap-1">
+            <div className="flex flex-col font-light gap-1 select-none">
               <Link href="/">Process</Link>
               <Link href="/">Financial Planning</Link>
               <Link href="/">For Adivsors</Link>
@@ -39,14 +39,14 @@ const Footer = () => {
           </div>
           <div className="flex flex-col text-sm mx-auto lg:mx-0">
             <h3 className="font-semibold mb-2">SPEAKING</h3>
-            <div className="flex flex-col font-light gap-1">
+            <div className="flex flex-col font-light gap-1 select-none">
               <Link href="/">Keynotes</Link>
               <Link href="/">Media Kit</Link>
             </div>
           </div>
           <div className="flex flex-col text-sm mx-auto lg:mx-0">
             <h3 className="font-semibold mb-2">CONTACT</h3>
-            <div className="flex flex-col font-light gap-1">
+            <div className="flex flex-col font-light gap-1 select-none">
               <Link href="/">Send a Message</Link>
               <Link href="/">Request to Book</Link>
             </div>
@@ -56,7 +56,7 @@ const Footer = () => {
           {/* Desktop */}
           <div className="hidden lg:flex  justify-between items-end pt-12">
             <div className="flex-1">
-              <Link href="/" className="text-sm font-semibold">
+              <Link href="/" className="text-sm font-semibold select-none">
                 Privacy Policy
               </Link>
               <div className="text-[.6rem] xl:text-[.7rem]">
@@ -78,7 +78,7 @@ const Footer = () => {
             <div className="flex-1 ">
               <Link
                 href="/"
-                className="text-[.8rem] font-semibold flex items-center justify-center py-6"
+                className="text-[.8rem] font-semibold flex items-center justify-center py-6 select-none"
               >
                 Privacy Policy
               </Link>

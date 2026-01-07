@@ -56,7 +56,6 @@ const ContactAdvisor = () => {
               title="JOIN THE WAITLIST"
               linkHref="#"
               backgroundColor="#0096fe"
-              cornerColor="border-t-theme-blue-900"
             />
           </button>
         </form>

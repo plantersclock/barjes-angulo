@@ -25,7 +25,6 @@ const TwoBoxSection1 = () => {
               title="BOOK AN INTRO CALL"
               linkHref="#"
               backgroundColor="#0036fd"
-              cornerColor="border-t-theme-gray-500"
             />
           </div>
         </div>

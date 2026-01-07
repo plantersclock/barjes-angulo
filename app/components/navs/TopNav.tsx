@@ -32,7 +32,7 @@ const TopNav = () => {
           <div className="flex-1 flex justify-end">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="p-2 hover:bg-gray-100 rounded-md transition-colors"
+              className="p-2 hover:bg-gray-100 rounded-md transition-colors select-none"
               aria-label="Toggle menu"
             >
               <svg
@@ -76,7 +76,7 @@ const TopNav = () => {
                 />
               </Link>
             </div>
-            <div className="flex self-center gap-8 text-xs xl:text-sm ml-8 font-eloquia-text">
+            <div className="flex self-center gap-8 text-xs xl:text-sm ml-8 font-eloquia-text select-none">
               <Link
                 href="/about"
                 className="hover:text-theme-blue-900 hover:font-semibold transition-colors "
@@ -112,7 +112,7 @@ const TopNav = () => {
           <div className="flex w-[40%] items-center gap-6 justify-end mr-8">
             <Link
               href="/CLIENT ACCESS"
-              className="font-eloquia-text text-xs xl:text-sm hover:text-theme-blue-900 hover:font-semibold transition-colors"
+              className="font-eloquia-text text-xs xl:text-sm hover:text-theme-blue-900 hover:font-semibold transition-colors select-none"
             >
               CLIENT ACCESS
             </Link>
@@ -135,7 +135,7 @@ const TopNav = () => {
             <div className="flex justify-end mb-8">
               <button
                 onClick={() => setIsMenuOpen(false)}
-                className="p-2 hover:bg-gray-100 rounded-md transition-colors"
+                className="p-2 hover:bg-gray-100 rounded-md transition-colors select-none"
                 aria-label="Close menu"
               >
                 <svg
@@ -155,7 +155,7 @@ const TopNav = () => {
             </div>
 
             {/* Menu Links */}
-            <div className="flex flex-col gap-6 font-eloquia-text text-lg">
+            <div className="flex flex-col gap-6 font-eloquia-text text-lg select-none">
               <Link
                 href="/about"
                 className="hover:text-theme-blue-700 transition-colors"

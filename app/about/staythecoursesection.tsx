@@ -35,7 +35,6 @@ const Staythecoursesection = () => {
               title="BOOK AN INTRO CALL"
               linkHref="#"
               backgroundColor="#0036fd"
-              cornerColor="border-t-white"
             />
           </div>
         </div>

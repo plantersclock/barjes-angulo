@@ -48,7 +48,6 @@ const ContactBook = () => {
               title="Request a BOOKING"
               linkHref="#"
               backgroundColor="#0096fe"
-              cornerColor="border-t-theme-blue-900"
             />
           </button>
         </form>

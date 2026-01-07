@@ -25,13 +25,11 @@ const Hero = () => {
               title="BOOK BARJES TO SPEAK"
               linkHref="#"
               backgroundColor="#0096fe"
-              cornerColor="border-t-theme-blue-900"
             />
             <GenericButton
               title="POPULAR KEYNOTES"
               linkHref="#"
               backgroundColor="#0036fd"
-              cornerColor="border-t-theme-blue-900"
             />
           </div>
         </div>

@@ -26,7 +26,6 @@ const TwoBoxSection1 = () => {
               title="Learn my approach"
               linkHref="#"
               backgroundColor="#0036fd"
-              cornerColor="border-t-white"
             />
           </div>
         </div>

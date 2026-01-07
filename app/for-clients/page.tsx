@@ -2,6 +2,8 @@ import React from "react";
 import Hero from "./hero";
 import PRBBoxes from "./prbboxes";
 import Cornerstone from "./cornerstone";
+import FAQ from "./faq";
+import Licenses from "./licenses";
 
 const page = () => {
   return (
@@ -9,6 +11,8 @@ const page = () => {
       <Hero />
       <PRBBoxes />
       <Cornerstone />
+      <Licenses />
+      <FAQ />
     </div>
   );
 };

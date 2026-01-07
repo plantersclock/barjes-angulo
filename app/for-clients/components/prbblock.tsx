@@ -35,7 +35,7 @@ const PRBBlock: React.FC<PRBBlockProps> = ({
       <div className="absolute w-full h-full  flex ">
         <div className="relative">
           <div className=" w-full h-full -rotate-90 rounded-md aspect-square">
-            <h2 className="font-eloquia-display rotate-180 absolute z-175 -top-2 right-1 md:right-[18.9%] md:top-[12%] lg:top-0 lg:right-2 leading-none w-full text-right text-5xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold lg:-mx-[.3rem] lg:-my-[.45rem] 2xl:-my-[.55rem]">
+            <h2 className="font-eloquia-display rotate-180 absolute z-175 -top-2 right-1 md:right-[1] md:-top-[1] lg:top-0 lg:right-2 leading-none w-full text-right text-5xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold lg:-mx-[.3rem] lg:-my-[.45rem] 2xl:-my-[.55rem]">
               {sideText}
             </h2>
           </div>
