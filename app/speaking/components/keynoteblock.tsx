@@ -39,8 +39,10 @@ const KeynoteBlock: React.FC<KeynoteBlockProps> = ({
       {/* Content at bottom */}
       <div className="absolute w-full h-full z-50">
         <div className=" relative pt-[10%] lg:pt-[15%] xl:pt-[20%] px-[10%] sm:px-[15%] lg:px-[10%] xl:px-[12%] 2xl:px-[15%] h-full w-full">
-          <h2 className="mb-4 leading-none text-header">{titleText}</h2>
-          <p className="text-content">
+          <h2 className="mb-4 leading-none text-header lg:text-3xl xl:text-4xl">
+            {titleText}
+          </h2>
+          <p className="text-content ">
             <span className="font-semibold">{boldText}</span> {regularText}
           </p>
           <div className="relative sm:absolute left-0 top-4 sm:top-[50%] lg:top-[48%] xl:top-[47%] 2xl:top-[50%]  sm:px-[15%] lg:px-[10%] xl:px-[12%] 2xl:px-[15%]">
