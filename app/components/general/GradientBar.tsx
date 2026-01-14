@@ -7,7 +7,7 @@ interface GradientBarProps {
 const GradientBar: React.FC<GradientBarProps> = ({ className = "" }) => {
   return (
     <div
-      className={`h-1 w-full bg-linear-to-r from-[#0315ad] to-[#08a4ff] ${className}`}
+      className={`h-0.5 w-full bg-linear-to-r from-[#0315ad] to-[#08a4ff] ${className}`}
     />
   );
 };

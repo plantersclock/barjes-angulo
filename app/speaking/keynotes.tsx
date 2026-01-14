@@ -3,7 +3,7 @@ import KeynoteBlock from "./components/keynoteblock";
 
 const Keynotes = () => {
   return (
-    <div className="relative">
+    <div id="keynotes" className="relative">
       <h2 className="text-header text-center mb-20 lg:mt-22">
         Popular Keynotes
       </h2>

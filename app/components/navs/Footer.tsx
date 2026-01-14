@@ -22,33 +22,42 @@ const Footer = () => {
         </div>
         <div className="col-span-8 lg:col-span-5 2xl:col-span-4 grid grid-cols-2 gap-y-14 lg:grid-cols-4 w-full justify-between mt-12 lg:mt-0">
           <div className="flex flex-col text-sm mx-auto lg:mx-0">
-            <h3 className="font-semibold mb-2">ABOUT</h3>
+            <Link href="/about" className="font-semibold mb-2">
+              ABOUT
+            </Link>
             <div className="flex flex-col font-light gap-1 select-none">
-              <Link href="/">Philosophy</Link>
-              <Link href="/">Licenses</Link>
+              <Link href="/about#philosophy">Philosophy</Link>
+              <Link href="/for-clients#licenses">Licenses</Link>
               <Link href="/">Disclosures</Link>
             </div>
           </div>
           <div className="flex flex-col text-sm mx-auto lg:mx-0">
-            <h3 className="font-semibold mb-2">EXPERTISE</h3>
+            <Link href="/for-clients" className="font-semibold mb-2">
+              EXPERTISE
+            </Link>
             <div className="flex flex-col font-light gap-1 select-none">
-              <Link href="/">Process</Link>
-              <Link href="/">Financial Planning</Link>
-              <Link href="/">For Adivsors</Link>
+              <Link href="/for-clients">Process</Link>
+              <Link href="/for-clients">Financial Planning</Link>
+              <Link href="/for-advisors">For Advisors</Link>
             </div>
           </div>
           <div className="flex flex-col text-sm mx-auto lg:mx-0">
-            <h3 className="font-semibold mb-2">SPEAKING</h3>
+            <Link href="/speaking" className="font-semibold mb-2">
+              SPEAKING
+            </Link>
             <div className="flex flex-col font-light gap-1 select-none">
-              <Link href="/">Keynotes</Link>
+              <Link href="/speaking#keynotes">Keynotes</Link>
               <Link href="/">Media Kit</Link>
             </div>
           </div>
           <div className="flex flex-col text-sm mx-auto lg:mx-0">
-            <h3 className="font-semibold mb-2">CONTACT</h3>
+            <Link href="/contact" className="font-semibold mb-2">
+              CONTACT
+            </Link>
             <div className="flex flex-col font-light gap-1 select-none">
-              <Link href="/">Send a Message</Link>
-              <Link href="/">Request to Book</Link>
+              <Link href="/contact">Send a Message</Link>
+              <Link href="/speaking#booking">Request to Book</Link>
+              <Link href="/contact">Schedule a Call</Link>
             </div>
           </div>
         </div>
@@ -59,9 +68,22 @@ const Footer = () => {
               <Link href="/" className="text-sm font-semibold select-none">
                 Privacy Policy
               </Link>
-              <div className="text-[.6rem] xl:text-[.7rem]">
+              <Link
+                href="https://www.uncommoncrowd.com"
+                target="_blank"
+                className="text-[.6rem] xl:text-[.7rem] leading-tight block py-2"
+              >
+                {`Advisory services are provided through Cornerstone Planning
+                Group, Inc., an independent advisory firm registered with the
+                Securities and Exchange Commission.`}
+              </Link>
+              <Link
+                href="https://www.uncommoncrowd.com"
+                target="_blank"
+                className="text-[.6rem] xl:text-[.7rem]  block"
+              >
                 ©2025, Barjes Angulo. Creative and web design by Uncommon Crowd.
-              </div>
+              </Link>
             </div>
             <div className="flex-1 flex justify-center font-bold text-2xl xl:text-3xl">
               Stay the course.
@@ -78,13 +100,26 @@ const Footer = () => {
             <div className="flex-1 ">
               <Link
                 href="/"
-                className="text-[.8rem] font-semibold flex items-center justify-center py-6 select-none"
+                className="text-[.8rem] font-semibold flex items-center justify-center pt-4 select-none"
               >
                 Privacy Policy
               </Link>
-              <div className="text-[.6rem] xl:text-[.7rem] text-center">
+              <Link
+                href="https://www.uncommoncrowd.com"
+                target="_blank"
+                className="text-[.6rem] xl:text-[.7rem] text-center leading-tight block "
+              >
+                {`Advisory services are provided through Cornerstone Planning
+                Group, Inc., an independent advisory firm registered with the
+                Securities and Exchange Commission.`}
+              </Link>
+              <Link
+                href="https://www.uncommoncrowd.com"
+                target="_blank"
+                className="text-[.6rem] xl:text-[.7rem] text-center block mt-2"
+              >
                 ©2025, Barjes Angulo. Creative and web design by Uncommon Crowd.
-              </div>
+              </Link>
             </div>
           </div>
         </div>

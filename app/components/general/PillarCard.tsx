@@ -51,7 +51,7 @@ const PillarCard: React.FC<PillarCardProps> = ({
           </p>
           <Link
             href={linkHref}
-            className="absolute bottom-[5%] right-[10%] text-sm sm:text-xs 2xl:text-sm font-light hover:underline flex items-center gap-2 font-eloquia-text"
+            className="absolute bottom-[5%] right-[10%] text-sm sm:text-xs 2xl:text-sm hover:font-bold flex items-center gap-2 font-eloquia-text"
           >
             <span className="font-medium">→</span> {linkText}
           </Link>

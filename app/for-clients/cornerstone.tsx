@@ -6,7 +6,7 @@ import Link from "next/link";
 const Cornerstone = () => {
   return (
     <div className="px-[4%] xl:px-[10%] flex flex-col md:flex-row justify-between items-center py-8 md:py-12 relative bg-linear-to-r from-[#F9F9F9] from-60% to-white">
-      <div className="h-22 lg:h-33 -ml-6">
+      <div className="h-22 lg:h-33 -ml-6 aspect-475/135">
         <Image
           src={cornerstone}
           alt="Cornerstone Logo"
@@ -30,7 +30,7 @@ const Cornerstone = () => {
         <div className=" relative h-full w-full">
           <Link
             href={"#"}
-            className="absolute bottom-4 md:bottom-[20%] right-[10%] text-sm sm:text-xs lg:text-base font-light hover:underline flex items-center gap-2 font-eloquia-text"
+            className="absolute bottom-4 md:bottom-[20%] right-[10%] text-sm sm:text-xs lg:text-base font-light hover:font-bold flex items-center gap-2 font-eloquia-text"
           >
             <span className="font-medium">→</span> Learn More
           </Link>

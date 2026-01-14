@@ -55,9 +55,9 @@ const KeynoteBlock: React.FC<KeynoteBlockProps> = ({
           </div>
           <Link
             href={linkHref}
-            className="absolute bottom-[5%] right-[10%] text-lg lg:text-base  hover:underline flex items-center gap-2 font-eloquia-text font-bold"
+            className="absolute bottom-[5%] right-[10%] text-lg lg:text-base  hover:font-bold flex items-center gap-2 font-eloquia-text "
           >
-            <span className="font-bold">→</span> {linkText}
+            <span className="font-medium">→</span> {linkText}
           </Link>
         </div>
       </div>

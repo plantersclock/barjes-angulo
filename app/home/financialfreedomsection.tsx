@@ -9,11 +9,11 @@ import GenericButton from "../components/general/GenericButton";
 const FinancialFreedomSection = () => {
   return (
     <div className="flex flex-col items-center mx-[10%] sm:mx-[5%] lg:mx-[15%] xl:mx-[23%] 2xl:mx-[20%] my-[5%]">
-      <h2 className="text-header text-center sm:text-left">
+      <h2 className="text-header text-center sm:text-left mt-8 lg:mt-0">
         Financial Freedom According to Barjes
       </h2>
 
-      <p className="my-6 sm:my-8 text-center sm:text-left text-content">
+      <p className="my-6 sm:my-8 text-center  text-content">
         For Barjes, financial freedom means having the time to be present, the
         means to prioritize family, the space to live fully, and the foresight
         to leave something meaningful behind. The goal is to build a life that

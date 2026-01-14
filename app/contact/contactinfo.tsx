@@ -46,7 +46,7 @@ const ContactInfo = () => {
               </span>
               PHONE
             </h3>
-            <a href="tel:973-487-3220" className="text-sm hover:underline">
+            <a href="tel:973-487-3220" className="text-sm hover:font-bold">
               973-487-3220
             </a>
           </div>
@@ -61,7 +61,7 @@ const ContactInfo = () => {
             </h3>
             <a
               href="mailto:barjes@cspgllc.com"
-              className="text-sm hover:underline"
+              className="text-sm hover:font-bold"
             >
               barjes@cspgllc.com
             </a>

@@ -33,7 +33,7 @@ const Licenses = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <div className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
+    <div id="licenses" className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
       <div className="w-full ">
         <div className="flex flex-col justify-center mx-auto h-full w-[90%] lg:w-[90%] xl:w-[65%] py-12 lg:py-0">
           <h2 className="text-header font-semibold">Licenses + Designations</h2>

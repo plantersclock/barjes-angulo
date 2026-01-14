@@ -7,14 +7,14 @@ import businessLogo from "../images/business-logo.png";
 
 const PRBBoxes = () => {
   return (
-    <div className="grid md:grid-cols-3 gap-1">
+    <div className="grid lg:grid-cols-3 gap-1">
       <PRBBlock
         titleText="Financial Planning + Strategy"
         paragraph1={`We’ll work together to create a clear and strategic financial plan that supports what you value most and adapts as your life evolves.`}
         paragraph2={`Whether you're growing what you’ve built or protecting it for what’s next, we’ll make sure your money works with the life you actually want to live.`}
         sideText="PLANNING"
         backgroundColor="#59C4FF"
-        linkText="Book This Keynote"
+        linkText="LEARN MORE"
         linkHref="#"
         image={finLogo}
       />
@@ -24,7 +24,7 @@ const PRBBoxes = () => {
         paragraph2={`We’ll take a thoughtful look at what you’ve built, what you need, and what matters most then create a strategy that protects your time, your lifestyle, and your future.`}
         sideText="RETIREMENT"
         backgroundColor="#32B6FF"
-        linkText="Book This Keynote"
+        linkText="LEARN MORE"
         linkHref="#"
         image={wealthLogo}
       />
@@ -34,7 +34,7 @@ const PRBBoxes = () => {
         paragraph2={`From goal projection and needs analysis to valuation, exit strategies, and hands-on implementation, you’ll have clarity and purpose at every stage.`}
         sideText="BUSINESS"
         backgroundColor="#10A9FF"
-        linkText="Book This Keynote"
+        linkText="LEARN MORE"
         linkHref="#"
         image={businessLogo}
       />

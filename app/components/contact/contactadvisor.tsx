@@ -13,11 +13,11 @@ const ContactAdvisor = () => {
             Barjes supports advisors who want to run their practice with more
             clarity, less friction, and better work-life integration.
           </span>{" "}
-          Barjes supports advisors who want to run their practice with more
-          clarity, less friction, and better work-life integration. That’s why
-          1:1 mentorships, small group masterminds, and a working book club are
-          taking shape. This is hands-on, advisor-to-advisor work focused on the
-          realities of running a practice day to day – workflow,
+          <br />
+          <br />
+          That’s why 1:1 mentorships, small group masterminds, and a working
+          book club are taking shape. This is hands-on, advisor-to-advisor work
+          focused on the realities of running a practice day to day – workflow,
           decision-making, client experience, and the systems behind it all.
           Participation will be limited and intentionally focused. <br />
           <br />
