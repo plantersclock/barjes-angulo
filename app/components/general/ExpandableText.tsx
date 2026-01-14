@@ -40,9 +40,7 @@ const ExpandableText: React.FC<ExpandableTextProps> = ({
         </span>
         <h3 className="font-semibold text-lg xl:text-xl">{title}</h3>
       </summary>
-      <p className="text-sm xl:text-base mt-4 whitespace-pre-line">
-        {description}
-      </p>
+      <p className="text-content mt-4 whitespace-pre-line">{description}</p>
     </details>
   );
 };

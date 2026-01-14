@@ -7,9 +7,7 @@ const ContactInfo = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-8 lg:gap-4">
           {/* Title */}
           <div className="lg:col-span-2">
-            <h2 className="font-eloquia-display text-3xl lg:text-4xl font-semibold text-theme-blue-900">
-              Contact Barjes
-            </h2>
+            <h2 className="text-header text-theme-blue-900">Contact Barjes</h2>
           </div>
 
           {/* Location */}

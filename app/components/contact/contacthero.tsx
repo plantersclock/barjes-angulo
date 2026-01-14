@@ -5,9 +5,7 @@ const ContactHero = () => {
   return (
     <div className="relative flex flex-col justify-center  h-full  w-full text-white rounded-md transition-all duration-200 bg-theme-blue-900">
       <div className="mx-auto w-[80%] lg:w-[75%] xl:w-[65%] py-12">
-        <h2 className="text-4xl 2xl:text-5xl font-semibold font-eloquia-display">
-          {`Book an in-person experience.`}
-        </h2>
+        <h2 className="text-header">{`Book an in-person experience.`}</h2>
         <p className="mt-6 leading-snug 2xl:leading-tight text-2xl font-eloquia-text font-light">
           Use the form to contact Barjes for keynotes, panels, and other live
           events.

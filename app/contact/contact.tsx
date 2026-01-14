@@ -13,7 +13,7 @@ const Contact = () => {
           alt="Barjes wearing headphones"
           fill
           className="object-cover w-full h-full "
-          quality={70}
+          quality={100}
           priority
         />
       </div>

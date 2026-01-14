@@ -12,7 +12,7 @@ const Book = () => {
           alt="Barjes Angulo crouching"
           fill
           className="object-cover w-full h-full "
-          quality={70}
+          quality={100}
           priority
         />
       </div>

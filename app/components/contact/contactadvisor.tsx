@@ -7,10 +7,8 @@ const ContactAdvisor = () => {
       {/* Triangle in top-right corner */}
 
       <div className="mx-auto w-[80%] lg:w-[75%] xl:w-[65%] py-12">
-        <h2 className="text-4xl 2xl:text-5xl font-semibold font-eloquia-display">
-          {`The advisor's advisor.`}
-        </h2>
-        <p className="mt-6 leading-snug 2xl:leading-tight text-sm 2xl:text-lg">
+        <h2 className="text-header">{`The advisor's advisor.`}</h2>
+        <p className="mt-6 text-content">
           <span className="font-semibold">
             Barjes supports advisors who want to run their practice with more
             clarity, less friction, and better work-life integration.

@@ -26,7 +26,7 @@ const GenericButton: React.FC<GenericButtonProps> = ({
           "polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%)",
       }}
     >
-      <div className="w-full text-center lg:text-left">
+      <div className="w-full text-center lg:text-left flex justify-center">
         <span className="text-lg leading-none mr-2 font-eloquia-text">→</span>
         <span className="font-eloquia-text">{title}</span>
       </div>

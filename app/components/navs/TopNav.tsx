@@ -24,7 +24,7 @@ const TopNav = () => {
                 fill
                 className="object-contain"
                 priority
-                quality={90}
+                quality={100}
               />
             </Link>
           </div>
@@ -72,7 +72,7 @@ const TopNav = () => {
                   fill
                   className="object-contain"
                   priority
-                  quality={90}
+                  quality={100}
                 />
               </Link>
             </div>

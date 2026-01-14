@@ -13,12 +13,12 @@ const Cornerstone = () => {
           height={135}
           width={475}
           className="object-cover w-full h-full scale-80"
-          quality={70}
+          quality={100}
           priority
         />
       </div>
       <div>
-        <p className="py-4 md:py-0 text-sm lg:text-base max-w-sm xl:max-w-md">
+        <p className="py-4 md:py-0 text-content max-w-sm xl:max-w-md">
           <span className="font-semibold">
             Barjes is a Cornerstone Planning Group advisor,
           </span>

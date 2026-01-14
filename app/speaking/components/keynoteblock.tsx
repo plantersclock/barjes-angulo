@@ -39,15 +39,13 @@ const KeynoteBlock: React.FC<KeynoteBlockProps> = ({
       {/* Content at bottom */}
       <div className="absolute w-full h-full z-50">
         <div className=" relative pt-[10%] lg:pt-[15%] xl:pt-[20%] px-[10%] sm:px-[15%] lg:px-[10%] xl:px-[12%] 2xl:px-[15%] h-full w-full">
-          <h2 className="mb-4 leading-none font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-3xl xl:text-4xl 2xl:text-[2.6rem]">
-            {titleText}
-          </h2>
-          <p className="text-base md:text-lg lg:text-sm xl:text-base 2xl:text-lg leading-tight">
+          <h2 className="mb-4 leading-none text-header">{titleText}</h2>
+          <p className="text-content">
             <span className="font-semibold">{boldText}</span> {regularText}
           </p>
           <div className="relative sm:absolute left-0 top-4 sm:top-[50%] lg:top-[48%] xl:top-[47%] 2xl:top-[50%]  sm:px-[15%] lg:px-[10%] xl:px-[12%] 2xl:px-[15%]">
             <h3 className="font-semibold text-lg xl:text-xl">LEARN</h3>
-            <ul className="list-disc list-outside ml-5 mt-3 xl:mt-6 space-y-3 xl:space-y-4 leading-tight text-sm md:text-base lg:text-sm xl:text-base">
+            <ul className="list-disc list-outside ml-5 mt-3 xl:mt-6 space-y-3 xl:space-y-4 text-content">
               <li>{bullet1}</li>
               <li>{bullet2}</li>
               <li>{bullet3}</li>

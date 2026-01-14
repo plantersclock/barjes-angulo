@@ -8,13 +8,13 @@ const Hero = () => {
     <div className="w-full flex flex-col-reverse lg:flex-row gap-1">
       <div className="w-full rounded-md bg-theme-blue-900 text-white">
         <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[70%] pt-12 pb-8 lg:py-0">
-          <h2 className="font-eloquia-display text-3xl xl:text-4xl 2xl:text-5xl font-semibold max-w-[95%]">
+          <h2 className="text-header max-w-[95%]">
             Talking about money is a lot like getting naked in front of someone.{" "}
             <span className="text-theme-blue-300 block mt-4">
               So let’s get naked.
             </span>
           </h2>
-          <p className="py-6 text-base sm:text-xs md:text-sm lg:text-sm xl:text-base 2xl:text-lg leading-snug">
+          <p className="py-6  text-content">
             {`Every conversation about money has a deeper, underlying meaning – identity, responsibility, legacy.`}
             <br />
             <br />
@@ -41,7 +41,7 @@ const Hero = () => {
           height={900}
           width={700}
           className="object-cover w-full h-full "
-          quality={70}
+          quality={100}
           priority
         />
       </div>

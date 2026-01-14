@@ -6,10 +6,8 @@ const Contact = () => {
       {/* Triangle in top-right corner */}
       <div className="absolute top-0 right-0 w-0 h-0 border-l-[10vw] sm:border-l-[5vw] lg:border-l-[2vw] border-l-transparent border-t-[10vw] sm:border-t-[5vw] lg:border-t-[2vw] border-t-white"></div>
       <div className="mx-[10%] py-14">
-        <h2 className="text-3xl font-semibold font-eloquia-display">
-          Notes from Barjes
-        </h2>
-        <p className="mt-3 text-sm">
+        <h2 className="text-header">Notes from Barjes</h2>
+        <p className="mt-3 text-content">
           Occasional insights on planning, perspective, and staying aligned –
           shared when there&apos;s something worth saying.
         </p>

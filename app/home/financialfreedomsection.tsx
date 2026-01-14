@@ -9,17 +9,17 @@ import GenericButton from "../components/general/GenericButton";
 const FinancialFreedomSection = () => {
   return (
     <div className="flex flex-col items-center mx-[10%] sm:mx-[5%] lg:mx-[15%] xl:mx-[23%] 2xl:mx-[20%] my-[5%]">
-      <h2 className="text-3xl sm:text-4xl font-semibold font-eloquia-display text-center sm:text-left">
+      <h2 className="text-header text-center sm:text-left">
         Financial Freedom According to Barjes
       </h2>
 
-      <p className="text-sm my-6 sm:my-8 text-center sm:text-left 2xl:text-base leading-tight">
+      <p className="my-6 sm:my-8 text-center sm:text-left text-content">
         For Barjes, financial freedom means having the time to be present, the
         means to prioritize family, the space to live fully, and the foresight
         to leave something meaningful behind. The goal is to build a life that
         works for you.
       </p>
-      <div className="flex flex-col sm:flex-row relative w-full justify-between px-[2%] mt-4 text-xl lg:text-2xl">
+      <div className="flex flex-col sm:flex-row relative w-full justify-between px-[2%] mt-4 text-xl lg:text-lg xl:text-xl 2xl:text-2xl">
         <div className="flex flex-col items-center justify-center">
           <Image
             src={iconTime}
@@ -28,7 +28,7 @@ const FinancialFreedomSection = () => {
             height={80}
             className=""
             priority
-            quality={90}
+            quality={100}
           />
           <div className="font-semibold mt-8 font-eloquia-display">TIME</div>
         </div>
@@ -43,7 +43,7 @@ const FinancialFreedomSection = () => {
             height={80}
             className="aspect-square"
             priority
-            quality={90}
+            quality={100}
           />
           <div className="font-semibold mt-8 font-eloquia-display">FAMILY</div>
         </div>
@@ -58,7 +58,7 @@ const FinancialFreedomSection = () => {
             height={80}
             className="aspect-square"
             priority
-            quality={90}
+            quality={100}
           />
           <div className="font-semibold mt-8 font-eloquia-display">LIFE</div>
         </div>
@@ -73,7 +73,7 @@ const FinancialFreedomSection = () => {
             height={80}
             className="aspect-square"
             priority
-            quality={90}
+            quality={100}
           />
           <div className="font-semibold mt-8 font-eloquia-display">LEGACY</div>
         </div>

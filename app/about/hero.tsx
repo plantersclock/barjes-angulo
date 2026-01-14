@@ -8,11 +8,11 @@ const TwoBoxSection1 = () => {
     <div className="w-full flex flex-col-reverse lg:flex-row gap-1">
       <div className="w-full ">
         <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[60%] py-12 lg:py-0">
-          <h2 className="font-eloquia-display text-3xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold">
+          <h2 className="text-header">
             {`I didn't build my business to live life around it. `}
             <span className="text-theme-blue-700">So why are you?</span>
           </h2>
-          <p className="py-6 text-base sm:text-xs md:text-sm lg:text-xs 2xl:text-base max-w-[90%] leading-5">
+          <p className="py-6 text-content max-w-[90%]">
             <span className="font-semibold">
               {`Like you, I’m a self-made business owner.`}
             </span>{" "}
@@ -37,7 +37,7 @@ const TwoBoxSection1 = () => {
           height={600}
           width={700}
           className="object-cover w-full h-full "
-          quality={70}
+          quality={100}
           priority
         />
       </div>

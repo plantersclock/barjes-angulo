@@ -8,13 +8,11 @@ const TwoBoxSection2 = () => {
     <div className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
       <div className="w-full rounded-md bg-theme-gray-500 ">
         <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[65%] py-12 lg:py-0">
-          <h2 className="font-eloquia-display text-3xl lg:text-3xl xl:text-4xl 2xl:text-4xl font-semibold">
-            Your personal CLFO
-          </h2>
+          <h2 className="text-header">Your personal CLFO</h2>
           <h3 className="text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl font-semibold">
             (Chief Life-first Financial Officer)
           </h3>
-          <p className="py-6 text-base sm:text-xs md:text-sm lg:text-sm 2xl:text-base max-w-[90%] leading-tight">
+          <p className="py-6 text-content max-w-[90%]">
             <span className="font-semibold">Barjes Angulo</span>
             {` is a financial
             strategist, mentor, and speaker who helps self-made business owners
@@ -46,7 +44,7 @@ const TwoBoxSection2 = () => {
           alt="Barjes Headshot"
           fill
           className="object-cover w-full h-full "
-          quality={50}
+          quality={100}
         />
       </div>
     </div>

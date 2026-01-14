@@ -8,11 +8,9 @@ const WhoIs = () => {
     <div className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
       <div className="w-full rounded-md bg-white ">
         <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[70%] py-12 lg:py-0">
-          <h2 className="font-eloquia-display text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-semibold">
-            Who is Barjes Angulo?
-          </h2>
+          <h2 className="text-header">Who is Barjes Angulo?</h2>
 
-          <p className="py-6 text-base sm:text-xs md:text-sm lg:text-sm xl:text-base 2xl:text-lg leading-snug">
+          <p className="py-6 text-content">
             {`Barjes Angulo is a financial
             strategist, mentor, and speaker who helps self-made business owners
             align their wealth with what matters most. With over two decades of
@@ -44,7 +42,7 @@ const WhoIs = () => {
           height={900}
           width={700}
           className="object-cover w-full h-full "
-          quality={70}
+          quality={100}
         />
       </div>
     </div>

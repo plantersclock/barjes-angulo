@@ -4,7 +4,7 @@ import KeynoteBlock from "./components/keynoteblock";
 const Keynotes = () => {
   return (
     <div className="relative">
-      <h2 className="font-eloquia-display text-center text-3xl lg:text-4xl font-semibold mb-20 lg:mt-22">
+      <h2 className="text-header text-center mb-20 lg:mt-22">
         Popular Keynotes
       </h2>
       <div className="grid lg:grid-cols-3 gap-1 relative">

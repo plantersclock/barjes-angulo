@@ -11,9 +11,7 @@ import icon5 from "../images/icon-accountability.png";
 const KeepingCourse = () => {
   return (
     <div className="mx-[10%]">
-      <h2 className="font-semibold font-eloquia-display text-4xl text-center mt-20 ">
-        Keeping you on course.
-      </h2>
+      <h2 className="text-header text-center mt-20 ">Keeping you on course.</h2>
       <p className="text-center mt-4">
         A simple 5-point process will ensure your goals are met in the most
         effective, confident way possible.

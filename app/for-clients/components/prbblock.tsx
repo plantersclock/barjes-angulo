@@ -62,7 +62,7 @@ const PRBBlock: React.FC<PRBBlockProps> = ({
               {titleText}
             </h2>
           </div>
-          <p className="text-base md:text-xs lg:text-sm xl:text-base 2xl:text-lg leading-tight mt-6 md:mt-4 lg:mt-6 2xl:mt-8">
+          <p className="text-content mt-6 md:mt-4 lg:mt-6 2xl:mt-8">
             {paragraph1}
             <br />
             <br />

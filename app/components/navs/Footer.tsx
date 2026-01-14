@@ -16,7 +16,7 @@ const Footer = () => {
               width={241}
               className="object-contain"
               priority
-              quality={90}
+              quality={100}
             />
           </Link>
         </div>

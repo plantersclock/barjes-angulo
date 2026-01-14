@@ -14,23 +14,23 @@ const Hero = () => {
           height={650}
           className="scale-[115%] ml-4"
           priority
-          quality={80}
+          quality={100}
         />
       </div>
       <div className="w-full lg:w-[45%] p-[8%] lg:p-[3.5%]">
-        <h1 className=" text-3xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold max-w-[85%] lg:max-w-[60%] font-eloquia-display">
+        <h1 className="max-w-[85%] lg:max-w-[80%] text-header">
           <span className="text-theme-blue-900 block">The juggle is real.</span>{" "}
           {`Shouldn’t your financial plan be as meaningful as the life it
           supports?`}
         </h1>
-        <h2 className="text-sm 2xl:text-base py-6 max-w-[90%] lg:max-w-[75%] leading-snug">
+        <p className="text-content py-5 max-w-[90%] lg:max-w-[75%] ">
           <span className="font-semibold leading-tight ">
             Work. Kids. Hobbies. Goals.
           </span>{" "}
           {`Whether you’re approaching retirement or just preparing for whatever
           comes next, your money should support the life you’ve always
           envisioned.`}
-        </h2>
+        </p>
         <div className="lg:max-w-[60%] xl:max-w-[47%] 2xl:max-w-[45%] flex flex-col gap-y-3">
           <GenericButton
             title="Work with Barjes"

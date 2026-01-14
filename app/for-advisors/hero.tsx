@@ -17,7 +17,7 @@ const Hero = () => {
           height={800}
           width={700}
           className="object-cover w-full h-full "
-          quality={70}
+          quality={100}
           priority
         />
       </div>
