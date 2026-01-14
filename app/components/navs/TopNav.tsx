@@ -5,6 +5,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import logo from "../../images/logo.png";
 import GenericButton from "../general/GenericButton";
+import GradientBar from "../general/GradientBar";
 import DropdownMenu from "./DropdownMenu";
 
 const forClientsLinks = [
@@ -256,25 +257,31 @@ const TopNav = () => {
             {/* Menu Links */}
             <div className="flex flex-col select-none">
               {/* Home */}
-              <Link
-                href="/"
-                className="py-4 border-b border-gray-200 hover:text-theme-blue-900 transition-all"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Home
-              </Link>
+              <div>
+                <Link
+                  href="/"
+                  className="py-4 block hover:text-theme-blue-900 transition-all"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Home
+                </Link>
+                <GradientBar />
+              </div>
 
               {/* About */}
-              <Link
-                href="/about"
-                className="py-4 border-b border-gray-200 hover:text-theme-blue-900 transition-all"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                About
-              </Link>
+              <div>
+                <Link
+                  href="/about"
+                  className="py-4 block hover:text-theme-blue-900 transition-all"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  About
+                </Link>
+                <GradientBar />
+              </div>
 
               {/* For Clients - Expandable */}
-              <div className="border-b border-gray-200">
+              <div>
                 <div className="w-full py-4 flex items-center justify-between">
                   <Link
                     href="/for-clients"
@@ -306,10 +313,11 @@ const TopNav = () => {
                     ))}
                   </div>
                 )}
+                <GradientBar />
               </div>
 
               {/* Speaking - Expandable */}
-              <div className="border-b border-gray-200">
+              <div>
                 <div className="w-full py-4 flex items-center justify-between">
                   <Link
                     href="/speaking"
@@ -339,19 +347,23 @@ const TopNav = () => {
                     ))}
                   </div>
                 )}
+                <GradientBar />
               </div>
 
               {/* For Advisors */}
-              <Link
-                href="/for-advisors"
-                className="py-4 border-b border-gray-200 hover:text-theme-blue-900 transition-all"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                For Advisors
-              </Link>
+              <div>
+                <Link
+                  href="/for-advisors"
+                  className="py-4 block hover:text-theme-blue-900 transition-all"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  For Advisors
+                </Link>
+                <GradientBar />
+              </div>
 
               {/* Client Login - Expandable */}
-              <div className="border-b border-gray-200">
+              <div>
                 <div className="w-full py-4 flex items-center justify-between">
                   <span>Client Login</span>
                   <button
@@ -376,6 +388,7 @@ const TopNav = () => {
                     ))}
                   </div>
                 )}
+                <GradientBar />
               </div>
 
               {/* Mobile CTA Button */}
