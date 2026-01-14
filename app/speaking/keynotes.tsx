@@ -17,8 +17,8 @@ const Keynotes = () => {
           bullet3="Structural changes that make a fee-based practice go from
                 stressful to sustainable"
           backgroundColor="#72C3FA"
-          linkText="Book This Keynote"
-          linkHref="#"
+          linkText="BOOK THIS KEYNOTE"
+          linkHref="#booking"
         />
         <KeynoteBlock
           titleText="The Modern Advisory Practice"
@@ -28,8 +28,8 @@ const Keynotes = () => {
           bullet2={`How to regain time without breaking compliance or client trust`}
           bullet3={`Systems that allow advisors to focus on planning instead of admin`}
           backgroundColor="#58B5F9"
-          linkText="Book This Keynote"
-          linkHref="#"
+          linkText="BOOK THIS KEYNOTE"
+          linkHref="#booking"
         />
         <KeynoteBlock
           titleText="Workflow That Works"
@@ -39,8 +39,8 @@ const Keynotes = () => {
           bullet2="Simple workflow structures that improve accountability and follow-through"
           bullet3="Ways to align people, process, and technology for smoother execution"
           backgroundColor="#47A8F8"
-          linkText="Book This Keynote"
-          linkHref="#"
+          linkText="BOOK THIS KEYNOTE"
+          linkHref="#booking"
         />
       </div>
     </div>

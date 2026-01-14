@@ -25,14 +25,22 @@ const PRBBlock: React.FC<PRBBlockProps> = ({
   linkText,
   linkHref,
   sideText,
+  hoverColor = "#011cbf",
 }) => {
   return (
-    <div
-      className="relative w-full h-full text-white rounded-md aspect-auto lg:aspect-square min-h-120 md:min-h-85.5 overflow-hidden"
+    <Link
+      href={linkHref}
+      className="relative w-full h-full text-white rounded-md aspect-auto lg:aspect-square min-h-120 md:min-h-85.5 overflow-hidden "
       style={{
         clipPath:
           "polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 0 100%)",
         backgroundColor,
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.backgroundColor = hoverColor;
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.backgroundColor = backgroundColor;
       }}
     >
       {/* Rotated Side Text */}
@@ -77,7 +85,7 @@ const PRBBlock: React.FC<PRBBlockProps> = ({
           </Link>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

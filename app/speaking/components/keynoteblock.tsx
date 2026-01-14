@@ -26,14 +26,22 @@ const KeynoteBlock: React.FC<KeynoteBlockProps> = ({
   bullet1,
   bullet2,
   bullet3,
+  hoverColor = "#011cbf",
 }) => {
   return (
-    <div
+    <Link
+      href={linkHref}
       className="relative w-full h-full text-white rounded-md  sm:aspect-9/7 lg:aspect-5/7 min-h-130 sm:min-h-0 max-h-125 sm:max-h-screen"
       style={{
         clipPath:
           "polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 0 100%)",
         backgroundColor,
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.backgroundColor = hoverColor;
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.backgroundColor = backgroundColor;
       }}
     >
       {/* Content at bottom */}
@@ -61,7 +69,7 @@ const KeynoteBlock: React.FC<KeynoteBlockProps> = ({
           </Link>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
