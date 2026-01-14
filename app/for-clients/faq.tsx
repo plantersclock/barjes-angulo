@@ -232,7 +232,7 @@ const faqData = [
 
 const FAQ = () => {
   return (
-    <div className="bg-linear-to-l from-[#F9F9F9] from-70% to-white">
+    <div id="faq" className="bg-linear-to-l from-[#F9F9F9] from-70% to-white">
       <div className="flex flex-col mx-[10%] sm:mx-[5%] lg:mx-[15%] xl:mx-[23%] 2xl:mx-[20%] ">
         <h2 className="mt-22 mb-8 text-header text-center">
           Frequently Asked Questions

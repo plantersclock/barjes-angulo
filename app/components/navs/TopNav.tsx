@@ -5,9 +5,24 @@ import Link from "next/link";
 import React, { useState } from "react";
 import logo from "../../images/logo.png";
 import GenericButton from "../general/GenericButton";
+import DropdownMenu from "./DropdownMenu";
+
+const forClientsLinks = [
+  { title: "Services", href: "/for-clients#services" },
+  { title: "Process", href: "/for-clients#process" },
+  { title: "Licenses + Designations", href: "/for-clients#licenses" },
+  { title: "Frequently Asked Questions", href: "/for-clients#faq" },
+];
+
+const clientAccessLinks = [
+  { title: "eMoney", href: "https://wealth.emaplan.com/ema/ria/anglefifth" },
+  { title: "Charles Schwab", href: "https://client.schwab.com/Areas/Access/Login?&kc=y&sim=y" },
+];
 
 const TopNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isForClientsOpen, setIsForClientsOpen] = useState(false);
+  const [isClientAccessOpen, setIsClientAccessOpen] = useState(false);
 
   return (
     <>
@@ -83,12 +98,19 @@ const TopNav = () => {
               >
                 ABOUT
               </Link>
-              <Link
-                href="/for-clients"
-                className="hover:text-theme-blue-900 hover:font-semibold transition-colors"
+              <div
+                className="relative"
+                onMouseEnter={() => setIsForClientsOpen(true)}
+                onMouseLeave={() => setIsForClientsOpen(false)}
               >
-                FOR CLIENTS
-              </Link>
+                <Link
+                  href="/for-clients"
+                  className="hover:text-theme-blue-900 hover:font-semibold transition-colors"
+                >
+                  FOR CLIENTS
+                </Link>
+                {isForClientsOpen && <DropdownMenu links={forClientsLinks} />}
+              </div>
               <Link
                 href="/speaking"
                 className="hover:text-theme-blue-900 hover:font-semibold transition-colors"
@@ -110,12 +132,16 @@ const TopNav = () => {
             </div>
           </div>
           <div className="flex w-[40%] items-center gap-6 justify-end mr-8">
-            <Link
-              href="/CLIENT ACCESS"
-              className="font-eloquia-text text-xs xl:text-sm hover:text-theme-blue-900 hover:font-semibold transition-colors select-none"
+            <div
+              className="relative"
+              onMouseEnter={() => setIsClientAccessOpen(true)}
+              onMouseLeave={() => setIsClientAccessOpen(false)}
             >
-              CLIENT ACCESS
-            </Link>
+              <div className="font-eloquia-text text-xs xl:text-sm hover:text-theme-blue-900 hover:font-semibold transition-colors select-none cursor-pointer">
+                CLIENT ACCESS
+              </div>
+              {isClientAccessOpen && <DropdownMenu links={clientAccessLinks} align="right" />}
+            </div>
             <div className="lg:max-w-[60%] xl:max-w-[47%] 2xl:max-w-[45%]">
               <GenericButton
                 title="Work With Barjes"

@@ -7,7 +7,7 @@ import businessLogo from "../images/business-logo.png";
 
 const PRBBoxes = () => {
   return (
-    <div className="grid lg:grid-cols-3 gap-1">
+    <div id="services" className="grid lg:grid-cols-3 gap-1">
       <PRBBlock
         titleText="Financial Planning + Strategy"
         paragraph1={`We’ll work together to create a clear and strategic financial plan that supports what you value most and adapts as your life evolves.`}
