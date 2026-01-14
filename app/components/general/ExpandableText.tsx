@@ -4,7 +4,7 @@ import React from "react";
 
 interface ExpandableTextProps {
   title: string;
-  description: string;
+  description: React.ReactNode;
   isExpanded?: boolean;
   onToggle?: () => void;
 }
@@ -40,7 +40,7 @@ const ExpandableText: React.FC<ExpandableTextProps> = ({
         </span>
         <h3 className="font-semibold text-lg xl:text-xl">{title}</h3>
       </summary>
-      <p className="text-content mt-4 whitespace-pre-line">{description}</p>
+      <div className="text-content mt-4">{description}</div>
     </details>
   );
 };
