@@ -20,7 +20,7 @@ const TwoBoxSection1 = () => {
             achieve, and continues with financial planning and support that
             helps you activate the life you want to live.`}
           </p>
-          <div className="lg:max-w-[60%] xl:max-w-[55%] 2xl:max-w-[55%] flex flex-col">
+          <div className="lg:max-w-[60%] xl:max-w-[60%] 2xl:max-w-[55%] flex flex-col">
             <GenericButton
               title="BOOK AN INTRO CALL"
               linkHref="#"

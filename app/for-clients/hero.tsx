@@ -16,7 +16,7 @@ const Hero = () => {
             <span className="font-semibold">Morbid, but true.</span>
             {` Reaching the peak of your career is one thing, but navigating the descent toward retirement takes more than savings and spreadsheets. To maintain the life you want to live (now and when you approach retirement) you need strategy, clarity, and a plan that integrates your values, protects your time, and supports the future you’re intentionally building.`}
           </p>
-          <div className="lg:max-w-[55%] xl:max-w-[47%] 2xl:max-w-[50%] flex flex-col">
+          <div className="lg:max-w-[65%] xl:max-w-[60%] 2xl:max-w-[50%] flex flex-col">
             <GenericButton
               title="Book an intro call"
               linkHref="#"

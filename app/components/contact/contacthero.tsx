@@ -41,7 +41,7 @@ const ContactHero = () => {
           </div>
           <button
             type="submit"
-            className="relative flex flex-col items-start lg:max-w-[60%] xl:max-w-[50%] 2xl:max-w-[50%]   mt-8"
+            className="relative flex flex-col items-start lg:max-w-[60%] xl:max-w-[55%] 2xl:max-w-[50%]   mt-8"
           >
             <GenericButton
               title="Request a BOOKING"

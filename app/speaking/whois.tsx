@@ -26,7 +26,7 @@ const WhoIs = () => {
             accountability, and a deep respect for their time, families, and
             aspirations.`}
           </p>
-          <div className="lg:max-w-[60%] xl:max-w-[50%] 2xl:max-w-[50%] flex flex-col mt-8">
+          <div className=" lg:max-w-[70%] xl:max-w-[50%] 2xl:max-w-[50%] flex flex-col mt-8">
             <GenericButton
               title="GET HIS SPEAKER SHEET"
               linkHref="#"

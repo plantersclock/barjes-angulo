@@ -20,7 +20,7 @@ const Hero = () => {
             <br />
             {`In his refreshingly human keynotes, Barjes helps audiences rethink their relationship with money, success, and time. Whether speaking to entrepreneurs, advisors, or leadership teams, Barjes invites people to align their financial choices with what they truly value.`}
           </p>
-          <div className="lg:max-w-[60%] xl:max-w-[55%] 2xl:max-w-[55%] flex flex-col gap-y-3 mt-8">
+          <div className="lg:max-w-[70%] xl:max-w-[55%] 2xl:max-w-[55%] flex flex-col gap-y-3 mt-8">
             <GenericButton
               title="BOOK BARJES TO SPEAK"
               linkHref="#"

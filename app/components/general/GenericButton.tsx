@@ -17,7 +17,7 @@ const GenericButton: React.FC<GenericButtonProps> = ({
   return (
     <Link
       href={linkHref}
-      className={`w-full inline-flex items-center gap-2 px-4 2xl:px-6 py-2 2xl:py-3 text-white text-xs 2xl:text-sm font-semibold uppercase tracking-wide hover:opacity-90 transition-opacity ${
+      className={`w-full inline-flex items-center gap-2 px-4 2xl:px-6 py-3 sm:py-2 2xl:py-3 text-white text-xs 2xl:text-sm font-semibold uppercase tracking-wide hover:opacity-90 transition-opacity ${
         minWidth || ""
       }`}
       style={{
@@ -26,9 +26,9 @@ const GenericButton: React.FC<GenericButtonProps> = ({
           "polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%)",
       }}
     >
-      <div className="w-full text-center lg:text-left flex justify-center">
+      <div className="w-full text-center lg:text-left flex justify-center items-center">
         <span className="text-lg leading-none mr-2 font-eloquia-text">→</span>
-        <span className="font-eloquia-text">{title}</span>
+        <span className="font-eloquia-text text-sm">{title}</span>
       </div>
     </Link>
   );

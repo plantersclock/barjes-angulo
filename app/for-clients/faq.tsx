@@ -71,19 +71,21 @@ const faqData = [
     description: (
       <>
         Fees vary based on the scope and complexity of work:
-        <br />
-        <br />
-        <span className="font-semibold">- Financial planning</span> is typically
-        a one-time or annual fee.
-        <br />
-        <span className="font-semibold">- Investment management</span> is
-        charged as a percentage of assets we manage.
-        <br />
-        <span className="font-semibold">- Insurance planning</span> does not
-        have a separate planning fee; compensation is built into the product if
-        implemented.
-        <br />
-        <br />
+        <ul className="list-disc list-outside ml-5 my-4 space-y-2">
+          <li>
+            <span className="font-semibold">Financial planning</span> is
+            typically a one-time or annual fee.
+          </li>
+          <li>
+            <span className="font-semibold">Investment management</span> is
+            charged as a percentage of assets we manage.
+          </li>
+          <li>
+            <span className="font-semibold">Insurance planning</span> does not
+            have a separate planning fee; compensation is built into the product
+            if implemented.
+          </li>
+        </ul>
         All fees are discussed clearly before engagement.
       </>
     ),
@@ -242,7 +244,7 @@ const FAQ = () => {
           </div>
         ))}
         <div className="flex items-center justify-center py-18">
-          <div className="lg:max-w-[30%] xl:max-w-[30%] 2xl:max-w-[30%] flex flex-col items-center justify-center ">
+          <div className="lg:max-w-[40%] xl:max-w-[40%] 2xl:max-w-[30%] flex flex-col items-center justify-center ">
             <GenericButton
               title="Learn my approach"
               linkHref="#"

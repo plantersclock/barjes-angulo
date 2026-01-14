@@ -48,7 +48,7 @@ const ContactAdvisor = () => {
           </div>
           <button
             type="submit"
-            className="relative flex flex-col items-start lg:max-w-[60%] xl:max-w-[47%] 2xl:max-w-[45%]   mt-8"
+            className="relative flex flex-col items-start lg:max-w-[60%] xl:max-w-[55%] 2xl:max-w-[45%]   mt-8"
           >
             <GenericButton
               title="JOIN THE WAITLIST"
