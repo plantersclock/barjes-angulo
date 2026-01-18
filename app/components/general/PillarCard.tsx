@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import React from "react";
 
 interface PillarCardProps {
@@ -9,7 +8,7 @@ interface PillarCardProps {
   sideText: string;
   backgroundColor: string;
   linkText: string;
-  linkHref: string;
+
   hoverColor?: string;
 }
 
@@ -19,7 +18,7 @@ const PillarCard: React.FC<PillarCardProps> = ({
   sideText,
   backgroundColor,
   linkText,
-  linkHref,
+
   hoverColor = "#011cbf",
 }) => {
   return (
@@ -49,12 +48,9 @@ const PillarCard: React.FC<PillarCardProps> = ({
           <p className=" pt-[30%] pl-[30%] sm:pl-[35%] pr-[10%] text-base sm:text-xs md:text-sm lg:text-xs 2xl:text-sm  mb-4 leading-tight ">
             <span className="font-bold">{boldText}</span> {regularText}
           </p>
-          <Link
-            href={linkHref}
-            className="absolute bottom-[5%] right-[10%] text-sm sm:text-xs 2xl:text-sm hover:font-bold flex items-center gap-2 font-eloquia-text"
-          >
+          <div className="absolute bottom-[5%] right-[10%] text-sm sm:text-xs 2xl:text-sm hover:font-bold flex items-center gap-2 font-eloquia-text">
             <span className="font-medium">→</span> {linkText}
-          </Link>
+          </div>
         </div>
       </div>
     </div>

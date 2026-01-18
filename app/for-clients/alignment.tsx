@@ -111,7 +111,7 @@ const Alignment = () => {
           <div className="max-w-full lg:max-w-[30%] xl:max-w-[30%] 2xl:max-w-[30%] flex flex-col items-center justify-center ">
             <GenericButton
               title="Book and Intro Call"
-              linkHref="#"
+              linkHref="/contact"
               backgroundColor="#0036fd"
             />
           </div>

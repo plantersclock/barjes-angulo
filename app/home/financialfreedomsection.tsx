@@ -85,7 +85,7 @@ const FinancialFreedomSection = () => {
         <div className="min-w-full sm:min-w-0 flex flex-col">
           <GenericButton
             title="Learn the process"
-            linkHref="#"
+            linkHref="/for-clients#process"
             backgroundColor="#0036fd"
           />
         </div>

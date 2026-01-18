@@ -32,7 +32,11 @@ const Contact = () => {
             <div className="grid sm:grid-cols-5 gap-y-6 sm:gap-y-10 text-content font-semibold mt-12">
               <span className="col-span-2">New clients:</span>
               <div className="col-span-3">
-                <Link href="#" className=" text-sm 2xl:text-base">
+                <Link
+                  href="https://calendly.com/barjes/intro-call"
+                  target="_blank"
+                  className=" text-sm 2xl:text-base"
+                >
                   {" "}
                   <span className="text-lg leading-none mr-2 font-eloquia-text">
                     →
@@ -42,14 +46,22 @@ const Contact = () => {
               </div>
               <span className="col-span-2">Existing clients:</span>
               <div className="col-span-3 grid gap-y-2">
-                <Link href="#" className=" text-sm 2xl:text-base">
+                <Link
+                  href="https://calendly.com/barjes/barjes-angulo-brief-connect-p3-clone"
+                  target="_blank"
+                  className=" text-sm 2xl:text-base"
+                >
                   {" "}
                   <span className="text-lg leading-none mr-2 font-eloquia-text">
                     →
                   </span>
                   BOOK A QUICK MEET
                 </Link>
-                <Link href="#" className=" text-sm 2xl:text-base">
+                <Link
+                  href="https://calendly.com/barjes/planning-session-w-barjes-angulo-p3-clone"
+                  target="_blank"
+                  className=" text-sm 2xl:text-base"
+                >
                   {" "}
                   <span className="text-lg leading-none mr-2 font-eloquia-text">
                     →

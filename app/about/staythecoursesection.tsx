@@ -5,7 +5,10 @@ import GenericButton from "../components/general/GenericButton";
 
 const Staythecoursesection = () => {
   return (
-    <div id="philosophy" className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
+    <div
+      id="philosophy"
+      className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1"
+    >
       <div className="w-full  ">
         <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[60%] py-12 lg:py-0">
           <h2 className="text-header">Stay the course.</h2>
@@ -31,7 +34,7 @@ const Staythecoursesection = () => {
           <div className="lg:max-w-[60%] xl:max-w-[55%] 2xl:max-w-[55%] flex flex-col">
             <GenericButton
               title="BOOK AN INTRO CALL"
-              linkHref="#"
+              linkHref="/contact"
               backgroundColor="#0036fd"
             />
           </div>

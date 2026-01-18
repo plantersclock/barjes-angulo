@@ -13,7 +13,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
   description,
 }) => {
   return (
-    <div className="flex flex-col items-center text-center px-2">
+    <div className="flex flex-col items-center text-center px-2 relative">
       <div className="relative w-16 h-16 lg:w-20 lg:h-20 aspect-square">
         <Image src={image} alt={title} fill className="object-contain" />
       </div>

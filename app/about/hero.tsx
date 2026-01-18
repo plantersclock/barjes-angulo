@@ -24,7 +24,7 @@ const TwoBoxSection1 = () => {
           <div className="lg:max-w-[60%] xl:max-w-[55%] 2xl:max-w-[55%] flex flex-col">
             <GenericButton
               title="Learn my approach"
-              linkHref="#"
+              linkHref="/for-clients"
               backgroundColor="#0036fd"
             />
           </div>

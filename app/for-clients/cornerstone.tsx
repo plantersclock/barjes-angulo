@@ -29,7 +29,8 @@ const Cornerstone = () => {
       <div className="absolute w-full h-full z-50 right-0 bottom-0">
         <div className=" relative h-full w-full">
           <Link
-            href={"#"}
+            href="https://www.cspgllc.com"
+            target="_blank"
             className="absolute bottom-4 md:bottom-[20%] right-[10%] text-sm sm:text-xs lg:text-base font-light hover:font-bold flex items-center gap-2 font-eloquia-text"
           >
             <span className="font-medium">→</span> Learn More

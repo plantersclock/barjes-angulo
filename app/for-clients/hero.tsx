@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="lg:max-w-[65%] xl:max-w-[60%] 2xl:max-w-[50%] flex flex-col">
             <GenericButton
               title="Book an intro call"
-              linkHref="#"
+              linkHref="/contact"
               backgroundColor="#0036fd"
             />
           </div>

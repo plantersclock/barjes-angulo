@@ -77,12 +77,9 @@ const PRBBlock: React.FC<PRBBlockProps> = ({
             {paragraph2}
           </p>
 
-          <Link
-            href={linkHref}
-            className="absolute bottom-[5%] right-[10%] md:text-sm lg:text-base  hover:font-bold flex items-center gap-2 font-eloquia-text font-light"
-          >
+          <div className="absolute bottom-[5%] right-[10%] md:text-sm lg:text-base  hover:font-bold flex items-center gap-2 font-eloquia-text font-light">
             <span className="font-bold">→</span> {linkText}
-          </Link>
+          </div>
         </div>
       </div>
     </Link>

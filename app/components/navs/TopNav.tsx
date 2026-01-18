@@ -367,7 +367,9 @@ const TopNav = () => {
                 <div className="w-full py-4 flex items-center justify-between">
                   <span>Client Login</span>
                   <button
-                    onClick={() => setMobileClientLoginOpen(!mobileClientLoginOpen)}
+                    onClick={() =>
+                      setMobileClientLoginOpen(!mobileClientLoginOpen)
+                    }
                     className="text-theme-blue-700 font-medium font-eloquia-text"
                   >
                     {mobileClientLoginOpen ? "↓" : "→"}
@@ -392,10 +394,10 @@ const TopNav = () => {
               </div>
 
               {/* Mobile CTA Button */}
-              <div className="mt-8">
+              <div className="mt-8" onClick={() => setIsMenuOpen(false)}>
                 <GenericButton
                   title="Work With Barjes"
-                  linkHref="#"
+                  linkHref="/contact"
                   backgroundColor="#0036fd"
                 />
               </div>
@@ -405,7 +407,7 @@ const TopNav = () => {
                 <span className="font-semibold text-sm">FOLLOW</span>
                 <div className="flex items-center gap-4">
                   <Link
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/barjesangulo/"
                     target="_blank"
                     className="text-theme-blue-900"
                   >
@@ -418,7 +420,7 @@ const TopNav = () => {
                     </svg>
                   </Link>
                   <Link
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/barj3s/"
                     target="_blank"
                     className="text-theme-blue-900"
                   >
@@ -431,7 +433,7 @@ const TopNav = () => {
                     </svg>
                   </Link>
                   <Link
-                    href="https://facebook.com"
+                    href="https://www.facebook.com/barjes.angulo"
                     target="_blank"
                     className="text-theme-blue-900"
                   >

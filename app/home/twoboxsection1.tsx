@@ -23,7 +23,7 @@ const TwoBoxSection1 = () => {
           <div className="lg:max-w-[60%] xl:max-w-[60%] 2xl:max-w-[55%] flex flex-col">
             <GenericButton
               title="BOOK AN INTRO CALL"
-              linkHref="#"
+              linkHref="/contact"
               backgroundColor="#0036fd"
             />
           </div>

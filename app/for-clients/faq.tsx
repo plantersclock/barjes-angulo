@@ -246,7 +246,7 @@ const FAQ = () => {
         <div className="flex items-center justify-center py-18">
           <div className="lg:max-w-[40%] xl:max-w-[40%] 2xl:max-w-[30%] flex flex-col items-center justify-center ">
             <GenericButton
-              title="Learn my approach"
+              title="BOOK AN INTRO CALL"
               linkHref="#"
               backgroundColor="#0036fd"
             />

@@ -11,7 +11,7 @@ const Hero = () => {
           <h1 className="text-header max-w-[95%]">
             Talking about money is a lot like getting naked in front of someone.{" "}
             <span className="text-theme-blue-300 block mt-4">
-              So let's get naked.
+              {`So let's get naked.`}
             </span>
           </h1>
           <p className="py-6  text-content">
@@ -23,12 +23,12 @@ const Hero = () => {
           <div className="lg:max-w-[70%] xl:max-w-[55%] 2xl:max-w-[55%] flex flex-col gap-y-3 mt-8">
             <GenericButton
               title="BOOK BARJES TO SPEAK"
-              linkHref="#"
+              linkHref="/speaking#booking"
               backgroundColor="#0096fe"
             />
             <GenericButton
               title="POPULAR KEYNOTES"
-              linkHref="#"
+              linkHref="speaking#keynotes"
               backgroundColor="#0036fd"
             />
           </div>

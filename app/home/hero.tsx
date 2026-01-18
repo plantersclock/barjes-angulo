@@ -34,12 +34,12 @@ const Hero = () => {
         <div className="lg:max-w-[60%] xl:max-w-[47%] 2xl:max-w-[45%] flex flex-col gap-y-3">
           <GenericButton
             title="Work with Barjes"
-            linkHref="#"
+            linkHref="/contact"
             backgroundColor="#0036fd"
           />
           <GenericButton
             title="Learn His Approach"
-            linkHref="#"
+            linkHref="/for-clients"
             backgroundColor="#0096fe"
           />
         </div>

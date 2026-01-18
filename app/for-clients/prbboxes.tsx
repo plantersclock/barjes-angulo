@@ -15,7 +15,7 @@ const PRBBoxes = () => {
         sideText="PLANNING"
         backgroundColor="#59C4FF"
         linkText="LEARN MORE"
-        linkHref="#"
+        linkHref="contact"
         image={finLogo}
       />
       <PRBBlock
@@ -25,7 +25,7 @@ const PRBBoxes = () => {
         sideText="RETIREMENT"
         backgroundColor="#32B6FF"
         linkText="LEARN MORE"
-        linkHref="#"
+        linkHref="contact"
         image={wealthLogo}
       />
       <PRBBlock
@@ -35,7 +35,7 @@ const PRBBoxes = () => {
         sideText="BUSINESS"
         backgroundColor="#10A9FF"
         linkText="LEARN MORE"
-        linkHref="#"
+        linkHref="contact"
         image={businessLogo}
       />
     </div>
