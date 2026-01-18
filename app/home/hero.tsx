@@ -11,7 +11,7 @@ const Hero = () => {
           src={barjesHero}
           alt="Barjes Hero"
           width={840}
-          height={5600}
+          height={560}
           className="scale-[115%] ml-4"
           priority
           quality={100}
