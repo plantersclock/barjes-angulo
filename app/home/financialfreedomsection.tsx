@@ -28,7 +28,7 @@ const FinancialFreedomSection = () => {
             height={80}
             className=""
             priority
-            quality={100}
+            quality={90}
           />
           <div className="font-semibold mt-8 font-eloquia-display">TIME</div>
         </div>
@@ -43,7 +43,7 @@ const FinancialFreedomSection = () => {
             height={80}
             className="aspect-square"
             priority
-            quality={100}
+            quality={90}
           />
           <div className="font-semibold mt-8 font-eloquia-display">FAMILY</div>
         </div>
@@ -58,7 +58,7 @@ const FinancialFreedomSection = () => {
             height={80}
             className="aspect-square"
             priority
-            quality={100}
+            quality={90}
           />
           <div className="font-semibold mt-8 font-eloquia-display">LIFE</div>
         </div>
@@ -73,7 +73,7 @@ const FinancialFreedomSection = () => {
             height={80}
             className="aspect-square"
             priority
-            quality={100}
+            quality={90}
           />
           <div className="font-semibold mt-8 font-eloquia-display">LEGACY</div>
         </div>

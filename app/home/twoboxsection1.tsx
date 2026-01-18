@@ -33,7 +33,8 @@ const TwoBoxSection1 = () => {
         <Image
           src={barjesFamily}
           alt="Barjes Family"
-          fill
+          height={800}
+          width={800}
           className="object-cover w-full h-full "
           quality={100}
         />
