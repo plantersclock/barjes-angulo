@@ -8,12 +8,12 @@ const Hero = () => {
     <div className="w-full flex flex-col-reverse lg:flex-row gap-1">
       <div className="w-full rounded-md bg-theme-blue-900 text-white">
         <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[70%] pt-12 pb-8 lg:py-0">
-          <h2 className="text-header max-w-[95%]">
+          <h1 className="text-header max-w-[95%]">
             Talking about money is a lot like getting naked in front of someone.{" "}
             <span className="text-theme-blue-300 block mt-4">
-              So let’s get naked.
+              So let's get naked.
             </span>
-          </h2>
+          </h1>
           <p className="py-6  text-content">
             {`Every conversation about money has a deeper, underlying meaning – identity, responsibility, legacy.`}
             <br />

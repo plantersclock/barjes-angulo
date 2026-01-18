@@ -38,9 +38,9 @@ const PillarCard: React.FC<PillarCardProps> = ({
 
       {/* Rotated Side Text */}
       <div className="absolute w-full h-full z-20 -rotate-90 rounded-md overflow-hidden">
-        <h2 className="font-eloquia-display rotate-180 absolute leading-none w-full text-right  text-5xl 2xl:text-6xl font-semibold  p-0 -mx-[.3rem] -my-[.45rem] 2xl:-my-[.55rem]">
+        <span className="font-eloquia-display rotate-180 absolute leading-none w-full text-right  text-5xl 2xl:text-6xl font-semibold  p-0 -mx-[.3rem] -my-[.45rem] 2xl:-my-[.55rem]">
           {sideText}
-        </h2>
+        </span>
       </div>
 
       {/* Content at bottom */}

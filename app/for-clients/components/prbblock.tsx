@@ -47,9 +47,9 @@ const PRBBlock: React.FC<PRBBlockProps> = ({
       <div className="absolute w-full h-full flex">
         <div className="relative w-full h-full">
           <div className=" w-full h-full -rotate-90 rounded-md aspect-square">
-            <h2 className="font-eloquia-display rotate-180 absolute z-175 -top-2 right-1 md:right-[1] md:-top-[1] lg:top-0 lg:right-2 leading-none w-full text-right text-5xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold lg:-mx-[.3rem] lg:-my-[.45rem] 2xl:-my-[.55rem]">
+            <span className="font-eloquia-display rotate-180 absolute z-175 -top-2 right-1 md:right-[1] md:-top-[1] lg:top-0 lg:right-2 leading-none w-full text-right text-5xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold lg:-mx-[.3rem] lg:-my-[.45rem] 2xl:-my-[.55rem]">
               {sideText}
-            </h2>
+            </span>
           </div>
         </div>
       </div>
@@ -66,9 +66,9 @@ const PRBBlock: React.FC<PRBBlockProps> = ({
                 className="object-contain"
               />
             </div>
-            <h2 className="flex justify-center leading-none font-semibold text-2xl md:text-base lg:text-lg 2xl:text-2xl pl-4">
+            <h3 className="flex justify-center leading-none font-semibold text-2xl md:text-base lg:text-lg 2xl:text-2xl pl-4">
               {titleText}
-            </h2>
+            </h3>
           </div>
           <p className="text-content mt-6 md:mt-4 lg:mt-6 2xl:mt-8">
             {paragraph1}

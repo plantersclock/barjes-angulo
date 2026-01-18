@@ -47,10 +47,10 @@ const QuoteSection = () => {
         }}
       >
         <div className="mx-[10%]">
-          <h2 className="text-3xl 2xl:text-4xl font-semibold font-eloquia-display pt-16 md:pt-20 max-w-3xl text-center">
-            {`“Money isn’t the most important thing in the world – but it gives us
-            options”`}
-          </h2>
+          <blockquote className="text-3xl 2xl:text-4xl font-semibold font-eloquia-display pt-16 md:pt-20 max-w-3xl text-center">
+            {`"Money isn't the most important thing in the world – but it gives us
+            options"`}
+          </blockquote>
           <p className="mt-8 text-base font-semibold  pb-16 md:pb-20 text-center">
             {`BARJES’ DAD`}
           </p>

@@ -4,7 +4,7 @@ const ContactInfo = () => {
   return (
     <div className="pt-12 lg:pt-16">
       <div className="mx-[10%] md:mx-[5%] lg:mx-[10%]">
-        <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-8 lg:gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-4">
           {/* Title */}
           <div className="lg:col-span-2">
             <h2 className="text-header text-theme-blue-900">Contact Barjes</h2>
@@ -12,25 +12,27 @@ const ContactInfo = () => {
 
           {/* Location */}
           <div className="lg:col-span-1">
-            <h3 className="text-sm font-semibold tracking-wider mb-4">
+            <h3 className="text-content font-semibold tracking-wider mb-4">
               <span className="text-lg leading-none mr-2 font-eloquia-text">
                 →
               </span>
               LOCATION
             </h3>
-            <div className="space-y-4">
+            <div className="space-y-4 ml-6">
               <div>
-                <p className="font-semibold text-sm">Florida Office</p>
-                <p className="text-sm">
-                  2598 E Sunrise Blvd Suite 2104
+                <p className="font-semibold text-content">Florida Office</p>
+                <p className="text-content">
+                  1555 Bonaventure Blvd
                   <br />
-                  Fort Lauderdale FL, 33304
+                  #1018
+                  <br />
+                  Weston, FL 33326
                 </p>
               </div>
               <div>
-                <p className="font-semibold text-sm">New Jersey Office</p>
-                <p className="text-sm">
-                  100 Passaic Ave, Suite 105
+                <p className="font-semibold text-content">New Jersey Office</p>
+                <p className="text-content">
+                  350 Passaic Ave #201
                   <br />
                   Fairfield NJ, 07004
                 </p>
@@ -40,20 +42,23 @@ const ContactInfo = () => {
 
           {/* Phone */}
           <div className="lg:col-span-1">
-            <h3 className="text-sm font-semibold tracking-wider mb-4">
+            <h3 className="text-content font-semibold tracking-wider mb-4">
               <span className="text-lg leading-none mr-2 font-eloquia-text">
                 →
               </span>
               PHONE
             </h3>
-            <a href="tel:973-487-3220" className="text-sm hover:font-bold">
-              973-487-3220
+            <a
+              href="tel:973-487-3220"
+              className="ml-6 text-content hover:font-bold"
+            >
+              {`973 - 487 - 3220`}
             </a>
           </div>
 
           {/* Email */}
           <div className="lg:col-span-1">
-            <h3 className="text-sm font-semibold tracking-wider mb-4">
+            <h3 className="text-content font-semibold tracking-wider mb-4">
               <span className="text-lg leading-none mr-2 font-eloquia-text">
                 →
               </span>
@@ -61,7 +66,7 @@ const ContactInfo = () => {
             </h3>
             <a
               href="mailto:barjes@cspgllc.com"
-              className="text-sm hover:font-bold"
+              className="ml-6 text-content hover:font-bold"
             >
               barjes@cspgllc.com
             </a>
