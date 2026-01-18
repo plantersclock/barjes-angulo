@@ -12,10 +12,11 @@ const Hero = () => {
           alt="Barjes Hero"
           width={840}
           height={560}
+          sizes="(max-width: 1024px) 100vw, 55vw"
           className="scale-[115%] ml-4"
           priority
           fetchPriority="high"
-          quality={100}
+          quality={85}
         />
       </div>
       <div className="w-full lg:w-[45%] p-[8%] lg:p-[3.5%]">

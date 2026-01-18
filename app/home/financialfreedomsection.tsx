@@ -26,9 +26,7 @@ const FinancialFreedomSection = () => {
             alt="Time Icon"
             width={80}
             height={80}
-            className=""
-            priority
-            quality={90}
+            quality={75}
           />
           <div className="font-semibold mt-8 font-eloquia-display">TIME</div>
         </div>
@@ -41,9 +39,7 @@ const FinancialFreedomSection = () => {
             alt="Family Icon"
             width={80}
             height={80}
-            className="aspect-square"
-            priority
-            quality={90}
+            quality={75}
           />
           <div className="font-semibold mt-8 font-eloquia-display">FAMILY</div>
         </div>
@@ -56,9 +52,7 @@ const FinancialFreedomSection = () => {
             alt="Life Icon"
             width={80}
             height={80}
-            className="aspect-square"
-            priority
-            quality={90}
+            quality={75}
           />
           <div className="font-semibold mt-8 font-eloquia-display">LIFE</div>
         </div>
@@ -71,9 +65,7 @@ const FinancialFreedomSection = () => {
             alt="Legacy Icon"
             width={80}
             height={80}
-            className="aspect-square"
-            priority
-            quality={90}
+            quality={75}
           />
           <div className="font-semibold mt-8 font-eloquia-display">LEGACY</div>
         </div>
