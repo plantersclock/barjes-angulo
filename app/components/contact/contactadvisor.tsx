@@ -30,6 +30,7 @@ const ContactAdvisor = () => {
               type="text"
               name="name"
               placeholder="Full Name"
+              aria-label="Full name"
               className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
 
@@ -37,12 +38,14 @@ const ContactAdvisor = () => {
               type="email"
               name="email"
               placeholder="Email"
+              aria-label="Email address"
               className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
             <input
               type="text"
               name="practiceWebsite"
               placeholder="Practice Website"
+              aria-label="Practice website URL"
               className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
           </div>

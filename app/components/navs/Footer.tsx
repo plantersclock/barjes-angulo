@@ -101,6 +101,7 @@ const Footer = () => {
                   href="https://www.linkedin.com/in/barjesangulo/"
                   target="_blank"
                   className="text-theme-blue-900"
+                  aria-label="Barjes Angulo LinkedIn profile"
                 >
                   <svg
                     className="w-4 h-4"
@@ -114,6 +115,7 @@ const Footer = () => {
                   href="https://www.instagram.com/barj3s/"
                   target="_blank"
                   className="text-theme-blue-900"
+                  aria-label="Barjes Angulo Instagram profile"
                 >
                   <svg
                     className="w-4 h-4"
@@ -127,6 +129,7 @@ const Footer = () => {
                   href="https://www.facebook.com/barjes.angulo"
                   target="_blank"
                   className="text-theme-blue-900"
+                  aria-label="Barjes Angulo Facebook page"
                 >
                   <svg
                     className="w-4 h-4"

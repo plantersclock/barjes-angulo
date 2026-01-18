@@ -73,7 +73,8 @@ const TopNav = () => {
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="p-2 hover:bg-gray-100 rounded-md transition-colors select-none"
-              aria-label="Toggle menu"
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isMenuOpen}
             >
               <svg
                 className="w-10 h-10"
@@ -177,9 +178,10 @@ const TopNav = () => {
             {/* Social Media Icons */}
             <div className="flex items-center gap-3 xl:gap-4">
               <Link
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/barjesangulo/"
                 target="_blank"
                 className="text-theme-blue-900 hover:opacity-70 transition-opacity"
+                aria-label="Barjes Angulo LinkedIn profile"
               >
                 <svg
                   className="w-4 h-4 xl:w-4 xl:h-4"
@@ -190,9 +192,10 @@ const TopNav = () => {
                 </svg>
               </Link>
               <Link
-                href="https://instagram.com"
+                href="https://www.instagram.com/barj3s/"
                 target="_blank"
                 className="text-theme-blue-900 hover:opacity-70 transition-opacity"
+                aria-label="Barjes Angulo Instagram profile"
               >
                 <svg
                   className="w-4 h-4 xl:w-4 xl:h-4"
@@ -203,9 +206,10 @@ const TopNav = () => {
                 </svg>
               </Link>
               <Link
-                href="https://facebook.com"
+                href="https://www.facebook.com/barjes.angulo"
                 target="_blank"
                 className="text-theme-blue-900 hover:opacity-70 transition-opacity"
+                aria-label="Barjes Angulo Facebook page"
               >
                 <svg
                   className="w-4 h-4 xl:w-4 xl:h-4"
@@ -410,6 +414,7 @@ const TopNav = () => {
                     href="https://www.linkedin.com/in/barjesangulo/"
                     target="_blank"
                     className="text-theme-blue-900"
+                    aria-label="Barjes Angulo LinkedIn profile"
                   >
                     <svg
                       className="w-6 h-6"
@@ -423,6 +428,7 @@ const TopNav = () => {
                     href="https://www.instagram.com/barj3s/"
                     target="_blank"
                     className="text-theme-blue-900"
+                    aria-label="Barjes Angulo Instagram profile"
                   >
                     <svg
                       className="w-6 h-6"
@@ -436,6 +442,7 @@ const TopNav = () => {
                     href="https://www.facebook.com/barjes.angulo"
                     target="_blank"
                     className="text-theme-blue-900"
+                    aria-label="Barjes Angulo Facebook page"
                   >
                     <svg
                       className="w-6 h-6"

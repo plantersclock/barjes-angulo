@@ -17,12 +17,14 @@ const Contact = () => {
               type="text"
               name="firstName"
               placeholder="First"
+              aria-label="First name"
               className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
             <input
               type="text"
               name="lastName"
               placeholder="Last"
+              aria-label="Last name"
               className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
 
@@ -30,6 +32,7 @@ const Contact = () => {
               type="email"
               name="email"
               placeholder="Email"
+              aria-label="Email address"
               className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
           </div>

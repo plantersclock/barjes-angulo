@@ -16,6 +16,7 @@ const ContactBook = () => {
               type="text"
               name="name"
               placeholder="Full Name"
+              aria-label="Full name"
               className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
 
@@ -23,18 +24,21 @@ const ContactBook = () => {
               type="email"
               name="email"
               placeholder="Email"
+              aria-label="Email address"
               className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
             <input
               type="text"
               name="organization"
               placeholder="Organization"
+              aria-label="Organization"
               className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
             <input
               type="text"
               name="description"
               placeholder="How can I help?"
+              aria-label="How can I help?"
               className="flex-1 px-3 py-1 bg-white border border-white  placeholder-black/80 text-black"
             />
           </div>
