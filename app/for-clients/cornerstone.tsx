@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import cornerstone from "../images/cornerstone-logo.png";
+import cornerstone from "../images/Cornerstone Planning Group.svg";
 import Link from "next/link";
 
 const Cornerstone = () => {

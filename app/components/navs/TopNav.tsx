@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import logo from "../../images/logo.png";
+import logo from "../../images/BarjesAngulo_Mark_Enhanced.svg";
 import GenericButton from "../general/GenericButton";
 import GradientBar from "../general/GradientBar";
 import DropdownMenu from "./DropdownMenu";

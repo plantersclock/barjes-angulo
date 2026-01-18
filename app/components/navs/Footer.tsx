@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import footerlogo from "../../images/logo-footer.png";
+import footerlogo from "../../images/BarjesAngulo_Centered_DarkBlue.svg";
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
             <Image
               src={footerlogo}
               alt="Barjes Logo"
-              height={84}
+              height={120}
               width={241}
               className="object-contain"
               priority
