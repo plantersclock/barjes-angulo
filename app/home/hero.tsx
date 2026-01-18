@@ -14,6 +14,7 @@ const Hero = () => {
           height={560}
           className="scale-[115%] ml-4"
           priority
+          fetchPriority="high"
           quality={100}
         />
       </div>
