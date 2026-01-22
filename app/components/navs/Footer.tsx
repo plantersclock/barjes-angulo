@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import footerlogo from "../../images/BarjesAngulo_Centered_DarkBlue.svg";
+import footerlogo from "../../images/logo-centered.svg";
 
 const Footer = () => {
   return (
@@ -21,17 +21,16 @@ const Footer = () => {
           </Link>
         </div>
         <div className="col-span-8 lg:col-span-5 2xl:col-span-4 grid grid-cols-2 gap-y-14 lg:grid-cols-4 w-full justify-between mt-12 lg:mt-0">
-          <div className="flex flex-col text-sm mx-auto lg:mx-0">
+          <div className="flex flex-col text-base mx-auto lg:mx-0">
             <Link href="/about" className="font-semibold mb-2">
               ABOUT
             </Link>
             <div className="flex flex-col font-light gap-1 select-none">
               <Link href="/about#philosophy">Philosophy</Link>
               <Link href="/for-clients#licenses">Licenses</Link>
-              <Link href="/">Disclosures</Link>
             </div>
           </div>
-          <div className="flex flex-col text-sm mx-auto lg:mx-0">
+          <div className="flex flex-col text-base mx-auto lg:mx-0">
             <Link href="/for-clients" className="font-semibold mb-2">
               EXPERTISE
             </Link>
@@ -41,7 +40,7 @@ const Footer = () => {
               <Link href="/for-advisors">For Advisors</Link>
             </div>
           </div>
-          <div className="flex flex-col text-sm mx-auto lg:mx-0">
+          <div className="flex flex-col text-base mx-auto lg:mx-0">
             <Link href="/speaking" className="font-semibold mb-2">
               SPEAKING
             </Link>
@@ -50,7 +49,7 @@ const Footer = () => {
               <Link href="/">Media Kit</Link>
             </div>
           </div>
-          <div className="flex flex-col text-sm mx-auto lg:mx-0">
+          <div className="flex flex-col text-base mx-auto lg:mx-0">
             <Link href="/contact" className="font-semibold mb-2">
               CONTACT
             </Link>
@@ -68,7 +67,7 @@ const Footer = () => {
               <a
                 href="/files/Privacy-Policy.pdf"
                 download="Privacy-Policy.pdf"
-                className="text-sm font-semibold select-none"
+                className="text-base font-semibold select-none"
               >
                 Privacy Policy
               </a>

@@ -186,10 +186,42 @@ const eloquiaText = localFont({
   variable: "--font-eloquia-text",
 });
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://barjes-angulo.vercel.app";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Barjes Angulo",
   description:
-    "Whether you’re approaching retirement or just preparing for whatever comes next, your money should support the life you’ve always envisioned.",
+    "Whether you're approaching retirement or just preparing for whatever comes next, your money should support the life you've always envisioned.",
+  openGraph: {
+    title: "Barjes Angulo",
+    description:
+      "Whether you're approaching retirement or just preparing for whatever comes next, your money should support the life you've always envisioned.",
+    url: siteUrl,
+    siteName: "Barjes Angulo",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Barjes Angulo - Financial Advisor",
+        type: "image/png",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Barjes Angulo",
+    description:
+      "Whether you're approaching retirement or just preparing for whatever comes next, your money should support the life you've always envisioned.",
+    images: ["/og-image.png"],
+  },
+  other: {
+    "apple-mobile-web-app-title": "Barjes Angulo",
+  },
 };
 
 export default function RootLayout({

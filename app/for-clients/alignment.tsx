@@ -5,15 +5,13 @@ const Alignment = () => {
   return (
     <div className="py-16 xl:pt-24">
       <div className="mx-[5%] lg:mx-[10%]">
-        <div className="grid grid-cols-1 xl:grid-cols-10 gap-8 lg:gap-4">
+        <div className="grid grid-cols-1 xl:grid-cols-10 gap-8 lg:gap-4 ">
           {/* Left side - Title and description */}
-          <div className="lg:col-span-3 flex flex-col mt-8 mr-3">
-            <h2 className="text-center sm:text-left font-eloquia-display text-3xl lg:text-4xl font-semibold leading-tight">
-              Alignment at
-              <br />
-              every step.
+          <div className="lg:col-span-3 flex flex-col mt-8 mx-8 sm:ml-0 sm:mr-3">
+            <h2 className="text-center sm:text-left font-eloquia-display text-4xl font-semibold leading-none">
+              Alignment at <span className="inline xl:block">every step. </span>
             </h2>
-            <p className="mt-6 text-sm lg:text-base text-center sm:text-left">
+            <p className="mt-6 text-base text-center sm:text-left">
               <span className="font-semibold">
                 Clear guidance requires clear compensation.
               </span>{" "}
@@ -26,7 +24,7 @@ const Alignment = () => {
           <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-3 gap-1 mt-4 xl:mt-0">
             {/* Insurance Planning */}
             <div
-              className="bg-[#72C3FA] text-white p-6 lg:p-8 rounded-md flex flex-col"
+              className="bg-[#72C3FA] hover:bg-theme-blue-900 text-white p-8 py-14 sm:py-8 lg:p-8 rounded-md flex flex-col"
               style={{
                 clipPath:
                   "polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 0 100%)",
@@ -35,7 +33,7 @@ const Alignment = () => {
               <h3 className="text-lg lg:text-xl font-semibold leading-tight">
                 Insurance Planning
               </h3>
-              <p className="mt-4 text-xs lg:text-sm leading-relaxed grow">
+              <p className="mt-4 text-base leading-tight grow">
                 Focus on protecting income, assets, and family outcomes through
                 life, disability, long-term care, and annuity solutions
                 integrated into your broader financial plan. We evaluate
@@ -43,8 +41,8 @@ const Alignment = () => {
                 and coordination with goals.
               </p>
               <div className="mt-6">
-                <p className="font-semibold text-sm lg:text-base">No fee</p>
-                <p className="text-xs italic mt-1">
+                <p className="font-semibold text-base">No fee</p>
+                <p className="text-base leading-tight italic mt-1">
                   Compensation paid directly by insurance carrier.
                 </p>
               </div>
@@ -52,7 +50,7 @@ const Alignment = () => {
 
             {/* Wealth Management + Financial Planning */}
             <div
-              className="bg-[#58B5F9] text-white p-6 lg:p-8 rounded-md flex flex-col"
+              className="bg-[#58B5F9] hover:bg-theme-blue-900 text-white p-8 py-14 sm:py-8 lg:p-8 rounded-md flex flex-col"
               style={{
                 clipPath:
                   "polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 0 100%)",
@@ -61,7 +59,7 @@ const Alignment = () => {
               <h3 className="text-lg lg:text-xl font-semibold leading-tight">
                 Wealth Management + Financial Planning
               </h3>
-              <p className="mt-4 text-xs lg:text-sm leading-relaxed grow">
+              <p className="mt-4 text-base leading-tight grow">
                 Get a clear, coordinated strategy across cash flow, investments,
                 retirement income, taxes, insurance, and estate considerations —
                 so every decision works together. Engagements may be one-time or
@@ -69,10 +67,10 @@ const Alignment = () => {
                 required.
               </p>
               <div className="mt-6">
-                <p className="font-semibold text-sm lg:text-base">
+                <p className="font-semibold text-base leading-tight">
                   Starting at $3000
                 </p>
-                <p className="text-xs italic mt-1">
+                <p className=" text-base leading-tight italic mt-1">
                   For foundational planning only, ranges to $6500+ for advanced.
                 </p>
               </div>
@@ -80,7 +78,7 @@ const Alignment = () => {
 
             {/* Investment Management */}
             <div
-              className="bg-[#47A8F8] text-white p-6 lg:p-8 rounded-md flex flex-col"
+              className="bg-[#47A8F8] hover:bg-theme-blue-900 text-white p-8 py-14 sm:py-8 lg:p-8 rounded-md flex flex-col"
               style={{
                 clipPath:
                   "polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 0 100%)",
@@ -89,7 +87,7 @@ const Alignment = () => {
               <h3 className="text-lg lg:text-xl font-semibold leading-tight">
                 Investment Management
               </h3>
-              <p className="mt-4 text-xs lg:text-sm leading-relaxed grow">
+              <p className="mt-4 text-base leading-tight grow">
                 For clients who choose to delegate portfolio management, we
                 design, implement, and monitor investment strategies aligned to
                 your goals, risk tolerance, and time horizon. This includes
@@ -97,10 +95,10 @@ const Alignment = () => {
                 ongoing oversight.
               </p>
               <div className="mt-6">
-                <p className="font-semibold text-sm lg:text-base">
+                <p className="font-semibold text-base leading-tight">
                   Starting at 1.35%
                 </p>
-                <p className="text-xs italic mt-1">
+                <p className="text-base leading-tight mt-1">
                   Asset-based, declines as assets grow.
                 </p>
               </div>

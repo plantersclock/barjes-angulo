@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import barjesHeadshot from "../images/barjes-headshot.webp";
+import barjesHeadshot from "../images/barjes-headshot.jpg";
 import GenericButton from "../components/general/GenericButton";
 
 const TwoBoxSection2 = () => {
@@ -42,7 +42,8 @@ const TwoBoxSection2 = () => {
         <Image
           src={barjesHeadshot}
           alt="Barjes Headshot"
-          fill
+          height={762}
+          width={762}
           className="object-cover w-full h-full "
           quality={100}
         />

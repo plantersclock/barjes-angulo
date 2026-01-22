@@ -17,8 +17,8 @@ const CourseCard: React.FC<CourseCardProps> = ({
       <div className="relative w-16 h-16 lg:w-20 lg:h-20 aspect-square">
         <Image src={image} alt={title} fill className="object-contain" />
       </div>
-      <h3 className="text-sm font-semibold mt-4 tracking-wider">{title}</h3>
-      <p className="mt-3 text-sm leading-snug mx-[5%] sm:mx-0 sm:text-left">
+      <h3 className="font-eloquia-text text-lg font-semibold mt-4 ">{title}</h3>
+      <p className="mt-3 text-base leading-snug mx-[5%] sm:mx-0 sm:text-left">
         {description}
       </p>
     </div>

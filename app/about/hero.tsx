@@ -21,7 +21,7 @@ const TwoBoxSection1 = () => {
             I’m committed to living my life to the fullest – no exceptions – and
             believe that everyone should have the opportunity to do the same.`}
           </p>
-          <div className="lg:max-w-[60%] xl:max-w-[55%] 2xl:max-w-[55%] flex flex-col">
+          <div className="lg:max-w-[60%] xl:max-w-[60%] 2xl:max-w-[55%] flex flex-col">
             <GenericButton
               title="Learn my approach"
               linkHref="/for-clients"

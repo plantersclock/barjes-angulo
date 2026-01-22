@@ -31,7 +31,7 @@ const Staythecoursesection = () => {
             fulfilling life. Because at the end of the day, money is only as
             meaningful as the life it fulfills.`}
           </p>
-          <div className="lg:max-w-[60%] xl:max-w-[55%] 2xl:max-w-[55%] flex flex-col">
+          <div className="lg:max-w-[60%] xl:max-w-[60%] 2xl:max-w-[55%] flex flex-col">
             <GenericButton
               title="BOOK AN INTRO CALL"
               linkHref="/contact"

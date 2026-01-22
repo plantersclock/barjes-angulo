@@ -24,7 +24,11 @@ const PillarCard: React.FC<PillarCardProps> = ({
   return (
     <div
       className="relative w-full h-full text-white rounded-md transition-all duration-200"
-      style={{ backgroundColor }}
+      style={{
+        clipPath:
+          "polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 0 100%)",
+        backgroundColor,
+      }}
       onMouseEnter={(e) => {
         e.currentTarget.style.backgroundColor = hoverColor;
       }}
@@ -32,23 +36,22 @@ const PillarCard: React.FC<PillarCardProps> = ({
         e.currentTarget.style.backgroundColor = backgroundColor;
       }}
     >
-      {/* Triangle in top-right corner */}
-      <div className="absolute top-0 right-0 w-0 h-0 border-l-[10vw] sm:border-l-[5vw] lg:border-l-[2vw] border-l-transparent border-t-[10vw] sm:border-t-[5vw] lg:border-t-[2vw] border-t-white"></div>
-
       {/* Rotated Side Text */}
-      <div className="absolute w-full h-full z-20 -rotate-90 rounded-md overflow-hidden">
-        <span className="font-eloquia-display rotate-180 absolute leading-none w-full text-right  text-5xl 2xl:text-6xl font-semibold  p-0 -mx-[.3rem] -my-[.45rem] 2xl:-my-[.55rem]">
-          {sideText}
-        </span>
+      <div className="absolute w-full h-full z-20  rounded-md overflow-hidden">
+        <div className="h-full aspect-square -rotate-90">
+          <span className="font-eloquia-display rotate-180 absolute leading-none w-full text-right text-4xl sm:text-5xl 2xl:text-6xl font-semibold  p-0 -mx-[.3rem] -my-[.45rem] 2xl:-my-[.55rem]">
+            {sideText}
+          </span>
+        </div>
       </div>
 
       {/* Content at bottom */}
-      <div className="absolute w-full h-full z-50">
+      <div className="relative w-full h-full z-50">
         <div className=" relative h-full w-full">
-          <p className=" pt-[30%] pl-[30%] sm:pl-[35%] pr-[10%] text-base sm:text-xs md:text-sm lg:text-xs 2xl:text-sm  mb-4 leading-tight ">
+          <p className=" py-[15%] xl:pt-[20%] pl-[30%] sm:pl-[25%] pr-[10%] text-base sm:text-lg lg:text-sm xl:text-base 2xl:text-lg  mb-4 leading-tight ">
             <span className="font-bold">{boldText}</span> {regularText}
           </p>
-          <div className="absolute bottom-[5%] right-[10%] text-sm sm:text-xs 2xl:text-sm hover:font-bold flex items-center gap-2 font-eloquia-text">
+          <div className="absolute bottom-[5%] right-[10%] text-sm sm:text-lg lg:text-sm xl:text-base 2xl:text-lg hover:font-bold flex items-center gap-2 font-eloquia-text">
             <span className="font-medium">→</span> {linkText}
           </div>
         </div>

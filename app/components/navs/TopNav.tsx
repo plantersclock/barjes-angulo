@@ -173,7 +173,9 @@ const TopNav = () => {
               <div className="font-eloquia-text text-xs xl:text-sm hover:text-theme-blue-900 hover:font-semibold transition-colors select-none cursor-pointer ">
                 CLIENT ACCESS
               </div>
-              {isClientAccessOpen && <DropdownMenu links={clientAccessLinks} />}
+              {isClientAccessOpen && (
+                <DropdownMenu links={clientAccessLinks} openInNewTab={true} />
+              )}
             </div>
             {/* Social Media Icons */}
             <div className="flex items-center gap-3 xl:gap-4">
@@ -223,7 +225,7 @@ const TopNav = () => {
             <div className="lg:max-w-[60%] xl:max-w-[47%] 2xl:max-w-[45%]">
               <GenericButton
                 title="Work With Barjes"
-                linkHref="#"
+                linkHref="/contact"
                 backgroundColor="#0036fd"
               />
             </div>
