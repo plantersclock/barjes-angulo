@@ -6,7 +6,7 @@ const QuoteSection = () => {
   return (
     <div className="grid gap-1">
       <div className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
-        <div className="w-full rounded-md bg-theme-gray-500 ">
+        <div className="w-full rounded-md  ">
           <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[60%] py-12 lg:py-0">
             <p className="py-12 text-content max-w-[90%]">
               <span className="font-semibold">What my father taught me</span>
