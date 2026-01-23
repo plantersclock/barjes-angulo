@@ -137,7 +137,7 @@ const Licenses = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <div
+    <section
       id="licenses"
       className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1"
     >
@@ -170,7 +170,7 @@ const Licenses = () => {
           quality={100}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

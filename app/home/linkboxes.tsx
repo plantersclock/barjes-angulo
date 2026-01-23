@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const LinkBoxes = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-1">
+    <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-1">
       <Link href="/about" className=" col-span-1 sm:aspect-square  ">
         <PillarCard
           boldText="I'm a family guy, so I'm not available 24/7."
@@ -41,7 +41,7 @@ const LinkBoxes = () => {
           linkText="BOOK BARJES"
         />
       </Link>
-    </div>
+    </section>
   );
 };
 

@@ -5,7 +5,7 @@ import GenericButton from "../components/general/GenericButton";
 
 const Staythecoursesection = () => {
   return (
-    <div
+    <section
       id="philosophy"
       className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1"
     >
@@ -49,7 +49,7 @@ const Staythecoursesection = () => {
           quality={100}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

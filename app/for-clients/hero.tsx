@@ -5,7 +5,7 @@ import barjesThinking from "../images/barjes-thinking.jpg";
 
 const Hero = () => {
   return (
-    <div className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
+    <section className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
       <div className="w-full ">
         <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[65%] py-12 lg:py-0">
           <h1 className="text-header">
@@ -34,7 +34,7 @@ const Hero = () => {
           quality={100}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

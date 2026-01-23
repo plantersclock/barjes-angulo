@@ -3,7 +3,7 @@ import KeynoteBlock from "./components/keynoteblock";
 
 const Keynotes = () => {
   return (
-    <div id="keynotes" className="relative">
+    <section id="keynotes" className="relative">
       <h2 className="text-header text-center mb-20 lg:mt-22">
         Popular Keynotes
       </h2>
@@ -43,7 +43,7 @@ const Keynotes = () => {
           linkHref="#booking"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -8,7 +8,7 @@ import GenericButton from "../components/general/GenericButton";
 
 const FinancialFreedomSection = () => {
   return (
-    <div className="flex flex-col items-center mx-[10%] sm:mx-[5%] lg:mx-[15%] xl:mx-[23%] 2xl:mx-[20%] my-[5%]">
+    <section className="flex flex-col items-center mx-[10%] sm:mx-[5%] lg:mx-[15%] xl:mx-[23%] 2xl:mx-[20%] my-[5%]">
       <h2 className="text-header text-center sm:text-left mt-8 lg:mt-0">
         Financial Freedom According to Barjes
       </h2>
@@ -82,7 +82,7 @@ const FinancialFreedomSection = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -5,7 +5,7 @@ import GenericButton from "../components/general/GenericButton";
 
 const TwoBoxSection1 = () => {
   return (
-    <div className="w-full flex flex-col-reverse lg:flex-row gap-1">
+    <section className="w-full flex flex-col-reverse lg:flex-row gap-1">
       <div className="w-full ">
         <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[60%] py-12 lg:py-0">
           <h1 className="text-header">
@@ -41,7 +41,7 @@ const TwoBoxSection1 = () => {
           priority
         />
       </div>
-    </div>
+    </section>
   );
 };
 

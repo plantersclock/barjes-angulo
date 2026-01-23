@@ -10,7 +10,7 @@ import icon5 from "../images/icon-accountability.png";
 
 const KeepingCourse = () => {
   return (
-    <div id="process" className="mx-[10%]">
+    <section id="process" className="mx-[10%]">
       <h2 className="text-header text-center mt-20 ">Keeping you on course.</h2>
       <p className="text-center mt-4">
         A simple 5-point process will ensure your goals are met in the most
@@ -55,7 +55,7 @@ const KeepingCourse = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

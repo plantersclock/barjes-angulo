@@ -5,7 +5,7 @@ import GenericButton from "../components/general/GenericButton";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col lg:flex-row">
+    <section className="flex flex-col lg:flex-row">
       <div className="w-full lg:w-[55%] aspect-3/2 relative overflow-hidden rounded-md">
         <Image
           src={barjesHero}
@@ -46,7 +46,7 @@ const Hero = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

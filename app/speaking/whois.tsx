@@ -5,7 +5,7 @@ import barjesSpeaking from "../images/barjes-speaking.jpg";
 
 const WhoIs = () => {
   return (
-    <div
+    <section
       id="speaker-sheet"
       className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1"
     >
@@ -49,7 +49,7 @@ const WhoIs = () => {
           quality={100}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

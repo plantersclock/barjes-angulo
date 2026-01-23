@@ -6,7 +6,7 @@ import ContactAdvisor from "../components/contact/contactadvisor";
 
 const Hero = () => {
   return (
-    <div className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
+    <section className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
       <div className="w-full rounded-md ">
         <ContactAdvisor />
       </div>
@@ -21,7 +21,7 @@ const Hero = () => {
           priority
         />
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactInfo = () => {
   return (
-    <div className="pt-12 lg:pt-16">
+    <section className="pt-12 lg:pt-16">
       <div className="mx-[10%] md:mx-[5%] lg:mx-[10%]">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-4">
           {/* Title */}
@@ -73,7 +73,7 @@ const ContactInfo = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

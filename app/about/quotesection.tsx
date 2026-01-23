@@ -4,7 +4,7 @@ import dad from "../images/barjes-dad.jpg";
 
 const QuoteSection = () => {
   return (
-    <div className="grid gap-1">
+    <section className="grid gap-1">
       <div className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
         <div className="w-full rounded-md  ">
           <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[60%] py-12 lg:py-0">
@@ -57,7 +57,7 @@ const QuoteSection = () => {
         </div>
         {/* Bottom Text */}
       </div>
-    </div>
+    </section>
   );
 };
 

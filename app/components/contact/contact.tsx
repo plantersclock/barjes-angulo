@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="relative w-full text-white rounded-md transition-all duration-200 bg-theme-blue-900">
+    <section className="relative w-full text-white rounded-md transition-all duration-200 bg-theme-blue-900">
       {/* Triangle in top-right corner */}
       <div className="absolute top-0 right-0 w-0 h-0 border-l-[10vw] sm:border-l-[5vw] lg:border-l-[2vw] border-l-transparent border-t-[10vw] sm:border-t-[5vw] lg:border-t-[2vw] border-t-white"></div>
       <div className="mx-[10%] py-14">
@@ -51,7 +51,7 @@ const Contact = () => {
       <div className="absolute left-0 bottom-0 leading-none font-eloquia-display w-full  text-5xl 2xl:text-5xl font-semibold  p-0 -mx-[.2rem] -my-[.5rem] 2xl:-my-2 ">
         SUBSCRIBE
       </div>
-    </div>
+    </section>
   );
 };
 

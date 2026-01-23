@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
+    <section className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
       <div className="w-full rounded-md aspect-720/1020 relative overflow-hidden">
         <Image
           src={barjesHeadphones}
@@ -74,7 +74,7 @@ const Contact = () => {
           {/* Bottom Text */}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
