@@ -1,6 +1,13 @@
-import React from "react";
+import { Metadata } from "next";
 
 import Contact from "./contact";
+
+export const metadata: Metadata = {
+  title: "Contact - Barjes Angulo",
+  description:
+    "Contact Barjes Angulo to start a conversation about financial planning, investment strategy, or advisory support.",
+  keywords: "Contact",
+};
 import ContactInfo from "./contactinfo";
 
 const page = () => {

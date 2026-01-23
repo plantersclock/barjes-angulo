@@ -66,7 +66,8 @@ const Footer = () => {
             <div className="flex-1">
               <a
                 href="/files/Privacy-Policy.pdf"
-                download="Privacy-Policy.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-base font-semibold select-none"
               >
                 Privacy Policy
@@ -149,7 +150,8 @@ const Footer = () => {
             <div className="flex-1 ">
               <a
                 href="/files/Privacy-Policy.pdf"
-                download="Privacy-Policy.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-[.8rem] font-semibold flex items-center justify-center pt-4 select-none"
               >
                 Privacy Policy

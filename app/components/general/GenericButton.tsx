@@ -6,6 +6,7 @@ interface GenericButtonProps {
   linkHref: string;
   backgroundColor: string;
   minWidth?: string;
+  openInNewTab?: boolean;
 }
 
 const GenericButton: React.FC<GenericButtonProps> = ({
@@ -13,10 +14,13 @@ const GenericButton: React.FC<GenericButtonProps> = ({
   linkHref,
   backgroundColor,
   minWidth,
+  openInNewTab = false,
 }) => {
   return (
     <Link
       href={linkHref}
+      target={openInNewTab ? "_blank" : undefined}
+      rel={openInNewTab ? "noopener noreferrer" : undefined}
       className={`w-full inline-flex items-center gap-2 px-4 2xl:px-6 py-3 sm:py-2 2xl:py-3 text-white text-xs 2xl:text-sm font-semibold uppercase tracking-wide hover:opacity-90 transition-opacity ${
         minWidth || ""
       }`}

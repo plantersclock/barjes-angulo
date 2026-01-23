@@ -32,8 +32,9 @@ const WhoIs = () => {
           <div className=" lg:max-w-[70%] xl:max-w-[55%] 2xl:max-w-[50%] flex flex-col mt-8">
             <GenericButton
               title="GET HIS SPEAKER SHEET"
-              linkHref="#"
+              linkHref="/files/BarjesAngulo-SpeakerSheet.pdf"
               backgroundColor="#0036fd"
+              openInNewTab={true}
             />
           </div>
         </div>

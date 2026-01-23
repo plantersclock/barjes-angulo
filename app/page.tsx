@@ -1,6 +1,13 @@
-import React from "react";
+import { Metadata } from "next";
 
 import Hero from "./home/hero";
+
+export const metadata: Metadata = {
+  title: "Financial Advisor Miami - Barjes Angulo",
+  description:
+    "Barjes Angulo, a financial advisor in Miami, offers life-forward financial planning, investment advice, and wealth management.",
+  keywords: "Financial Advisor Miami",
+};
 
 import LinkBoxes from "./home/linkboxes";
 import TwoBoxSection1 from "./home/twoboxsection1";

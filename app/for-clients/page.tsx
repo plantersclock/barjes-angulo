@@ -1,5 +1,12 @@
-import React from "react";
+import { Metadata } from "next";
 import Hero from "./hero";
+
+export const metadata: Metadata = {
+  title: "Investment Advice - Barjes Angulo",
+  description:
+    "Barjes Angulo integrates investment advice, financial planning, wealth management, and business solutions for clients.",
+  keywords: "Investment Advice",
+};
 import PRBBoxes from "./prbboxes";
 import Cornerstone from "./cornerstone";
 import FAQ from "./faq";

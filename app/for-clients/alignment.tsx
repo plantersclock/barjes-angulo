@@ -108,7 +108,7 @@ const Alignment = () => {
         <div className="flex flex-col sm:items-end mt-8">
           <div className="max-w-full lg:max-w-[30%] xl:max-w-[30%] 2xl:max-w-[30%] flex flex-col items-center justify-center ">
             <GenericButton
-              title="Book and Intro Call"
+              title="Book an Intro Call"
               linkHref="/contact"
               backgroundColor="#0036fd"
             />

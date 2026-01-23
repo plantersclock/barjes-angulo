@@ -7,6 +7,7 @@ import GradientBar from "../general/GradientBar";
 interface DropdownLink {
   title: string;
   href: string;
+  openInNewTab?: boolean;
 }
 
 interface DropdownMenuProps {
@@ -19,12 +20,14 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ links, align = "left", open
   return (
     <div className={`absolute top-full min-w-55 z-50 ${align === "right" ? "right-0" : "left-0"}`}>
       <div className="bg-white shadow-lg rounded-md py-3 px-4 font-eloquia-text">
-        {links.map((link, index) => (
+        {links.map((link, index) => {
+          const shouldOpenInNewTab = link.openInNewTab ?? openInNewTab;
+          return (
           <div key={index}>
             <Link
               href={link.href}
-              target={openInNewTab ? "_blank" : undefined}
-              rel={openInNewTab ? "noopener noreferrer" : undefined}
+              target={shouldOpenInNewTab ? "_blank" : undefined}
+              rel={shouldOpenInNewTab ? "noopener noreferrer" : undefined}
               className="group/link flex items-center justify-between py-2 text-sm hover:font-semibold hover:text-theme-blue-900 transition-all"
             >
               <span>{link.title}</span>
@@ -34,7 +37,8 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ links, align = "left", open
             </Link>
             {index < links.length - 1 && <GradientBar />}
           </div>
-        ))}
+        );
+        })}
       </div>
     </div>
   );

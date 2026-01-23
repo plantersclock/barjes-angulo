@@ -25,7 +25,7 @@ const clientAccessLinks = [
 
 const speakingLinks = [
   { title: "Popular Keynotes", href: "/speaking#keynotes" },
-  { title: "Speaker Sheet", href: "/speaking#speaker-sheet" },
+  { title: "Speaker Sheet", href: "/files/BarjesAngulo-SpeakerSheet.pdf", openInNewTab: true },
 ];
 
 const TopNav = () => {
