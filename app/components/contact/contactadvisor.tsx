@@ -6,8 +6,11 @@ const ContactAdvisor = () => {
     <div className="relative flex flex-col justify-center  h-full  w-full text-white rounded-md transition-all duration-200 bg-theme-blue-900">
       {/* Triangle in top-right corner */}
 
-      <div className="mx-auto w-[80%] lg:w-[75%] xl:w-[65%] py-12">
-        <h1 className="text-header">{`The advisor's advisor.`}</h1>
+      <div className="mx-auto w-[80%] lg:w-[75%] xl:w-[65%] py-24 lg:py-12">
+        <h1 className="uppercase mb-4  -mt-6 text-sm xl:text-base">
+          Financial Advisor Coaching
+        </h1>
+        <h2 className="text-header">{`The advisor's advisor.`}</h2>
         <p className="mt-6 text-content">
           <span className="font-semibold">
             Barjes supports advisors who want to run their practice with more

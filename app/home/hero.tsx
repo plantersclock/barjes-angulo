@@ -20,11 +20,14 @@ const Hero = () => {
         />
       </div>
       <div className="w-full lg:w-[45%] p-[8%] lg:p-[3.5%]">
-        <h1 className="max-w-[85%] lg:max-w-[80%] text-header">
+        <h1 className="uppercase mb-4  -mt-6 text-sm xl:text-base">
+          financial advisor miAmi
+        </h1>
+        <h2 className="max-w-[85%] lg:max-w-[80%] text-header">
           <span className="text-theme-blue-900 block">The juggle is real.</span>{" "}
           {`Shouldn’t your financial plan be as meaningful as the life it
           supports?`}
-        </h1>
+        </h2>
         <p className="text-content py-5 max-w-[90%] lg:max-w-[75%] ">
           <span className="font-semibold leading-tight ">
             Work. Kids. Hobbies. Goals.

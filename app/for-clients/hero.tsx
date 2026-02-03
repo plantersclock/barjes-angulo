@@ -8,9 +8,12 @@ const Hero = () => {
     <section className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
       <div className="w-full ">
         <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[65%] py-12 lg:py-0">
-          <h1 className="text-header">
-            Most people die on the way DOWN from Mount Everest.
+          <h1 className="uppercase mb-4  -mt-6 text-sm xl:text-base">
+            Investment Advice
           </h1>
+          <h2 className="text-header">
+            Most people die on the way DOWN from Mount Everest.
+          </h2>
 
           <p className="py-6 text-content max-w-[90%]">
             <span className="font-semibold">Morbid, but true.</span>

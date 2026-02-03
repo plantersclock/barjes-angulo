@@ -12,7 +12,7 @@ import ContactInfo from "./contactinfo";
 
 const page = () => {
   return (
-    <div className="container mx-auto grid gap-1 p-1">
+    <div className="container mx-auto flex flex-col p-1">
       <Contact />
       <ContactInfo />
     </div>

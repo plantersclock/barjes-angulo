@@ -8,10 +8,13 @@ const TwoBoxSection1 = () => {
     <section className="w-full flex flex-col-reverse lg:flex-row gap-1">
       <div className="w-full ">
         <div className="flex flex-col justify-center mx-auto h-full w-[80%] lg:w-[75%] xl:w-[60%] py-12 lg:py-0">
-          <h1 className="text-header">
+          <h1 className="uppercase mb-4  -mt-6 text-sm xl:text-base">
+            About Barjes
+          </h1>
+          <h2 className="text-header">
             {`I didn't build my business to live life around it. `}
             <span className="text-theme-blue-700">So why are you?</span>
-          </h1>
+          </h2>
           <p className="py-6 text-content max-w-[90%]">
             <span className="font-semibold">
               {`Like you, I’m a self-made business owner.`}

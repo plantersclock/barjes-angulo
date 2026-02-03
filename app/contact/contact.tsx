@@ -7,13 +7,13 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <section className="w-full flex flex-col-reverse lg:flex-row-reverse gap-1">
-      <div className="w-full rounded-md aspect-720/1020 relative overflow-hidden">
+    <section className="w-full flex flex-col lg:flex-row-reverse gap-1">
+      <div className="w-full rounded-md aspect-9/10 lg:aspect-720/1020 relative overflow-hidden">
         <Image
           src={barjesHeadphones}
           alt="Barjes wearing headphones"
           fill
-          className="object-cover w-full h-full "
+          className="object-cover w-full h-full object-top "
           quality={100}
           priority
         />
