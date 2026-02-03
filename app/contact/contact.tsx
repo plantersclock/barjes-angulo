@@ -28,7 +28,7 @@ const Contact = () => {
           }}
         >
           <div className="mx-auto w-[80%] lg:w-[75%] xl:w-[65%] py-16">
-            <h2 className="text-header">{`Schedule a Call.`}</h2>
+            <h3 className="text-header">{`Schedule a Call.`}</h3>
             <div className="grid sm:grid-cols-5 gap-y-6 sm:gap-y-10 text-content font-semibold mt-12">
               <span className="col-span-2">New clients:</span>
               <div className="col-span-3">

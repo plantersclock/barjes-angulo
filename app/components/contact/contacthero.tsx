@@ -3,7 +3,7 @@ import GenericButton from "../general/GenericButton";
 
 const ContactHero = () => {
   return (
-    <div className="relative flex flex-col justify-center  h-full  w-full text-white rounded-md transition-all duration-200 bg-theme-blue-900">
+    <section className="relative flex flex-col justify-center  h-full  w-full text-white rounded-md transition-all duration-200 bg-theme-blue-900">
       <div className="mx-auto w-[80%] lg:w-[75%] xl:w-[65%] py-24 lg:py-12">
         <h1 className="uppercase mb-4  -mt-6 text-sm xl:text-base">
           Contact Us
@@ -64,7 +64,7 @@ const ContactHero = () => {
           </button>
         </form>
       </div>
-    </div>
+    </section>
   );
 };
 
