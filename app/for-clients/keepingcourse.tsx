@@ -11,8 +11,10 @@ import icon5 from "../images/icon-accountability.png";
 const KeepingCourse = () => {
   return (
     <section id="process" className="mx-[10%]">
-      <h2 className="text-header text-center mt-20 ">Keeping you on course.</h2>
-      <p className="text-center mt-4">
+      <h2 className="text-header text-center mt-20 lg:mt-32 ">
+        Keeping you on course.
+      </h2>
+      <p className="text-center mt-6">
         A simple 5-point process will ensure your goals are met in the most
         effective, confident way possible.
       </p>
@@ -27,7 +29,7 @@ const KeepingCourse = () => {
             <div className="w-0 h-0 border-l-[4px] border-l-transparent border-r-[4px] border-r-transparent border-t-[5px] border-t-[#08a4ff]"></div>
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mt-8 lg:mt-14">
           <CourseCard
             image={icon1}
             title="CLARITY"

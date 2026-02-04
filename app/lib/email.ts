@@ -98,7 +98,7 @@ export async function sendContactEmail(
   try {
     const { error } = await resend.emails.send({
       from: "Barjes Angulo Website <admin@wamwebdev.com>",
-      to: ["wamwebdev@gmail.com"],
+      to: ["wamwebdev@gmail.com", "erik@uncommoncrowd.com"],
       replyTo: data.email,
       subject: generateSubject(data),
       html: generateEmailHtml(data),

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Cornerstone = () => {
   return (
-    <section className="px-[4%] xl:px-[10%] flex flex-col md:flex-row justify-between items-center py-8 md:py-12 relative bg-linear-to-r from-[#F9F9F9] from-60% to-white">
+    <section className="px-[4%] xl:px-[10%] flex flex-col md:flex-row justify-between items-center py-8 md:py-12 relative bg-[#F4F4F4] rounded-md">
       <div className="h-22 lg:h-33 -ml-6 aspect-475/135">
         <Image
           src={cornerstone}

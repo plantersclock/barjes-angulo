@@ -3,7 +3,7 @@ import GenericButton from "../components/general/GenericButton";
 
 const Alignment = () => {
   return (
-    <section className="py-16 xl:pt-24">
+    <section className="py-16 lg:pt-24 lg:pb-32">
       <div className="mx-[5%] lg:mx-[10%]">
         <div className="grid grid-cols-1 xl:grid-cols-10 gap-8 lg:gap-4 ">
           {/* Left side - Title and description */}
