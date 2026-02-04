@@ -121,7 +121,7 @@ const ContactHero = () => {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="relative flex flex-col items-start lg:max-w-[50%] xl:max-w-[45%] 2xl:max-w-[42%] mt-8"
+              className="relative flex flex-col items-start lg:max-w-[52%] xl:max-w-[50%] 2xl:max-w-[42%] mt-8"
             >
               <div
                 className="flex items-center justify-center text-white text-sm py-2 px-6 rounded-sm transition-all duration-200 w-full"
