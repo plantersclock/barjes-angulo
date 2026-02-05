@@ -24,15 +24,32 @@ const ContactAdvisor = () => {
     };
 
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
+      const nameParts = data.name.trim().split(" ");
+      const firstName = nameParts[0] || "";
+      const lastName = nameParts.slice(1).join(" ") || "";
 
-      if (!response.ok) {
-        const result = await response.json();
-        throw new Error(result.error || "Failed to send message");
+      const [emailResult] = await Promise.allSettled([
+        fetch("/api/contact", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        }),
+        fetch("/api/subscribe", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email: data.email, firstName, lastName }),
+        }),
+      ]);
+
+      if (
+        emailResult.status === "rejected" ||
+        (emailResult.status === "fulfilled" && !emailResult.value.ok)
+      ) {
+        const errorMsg =
+          emailResult.status === "fulfilled"
+            ? (await emailResult.value.json()).error
+            : "Failed to send message";
+        throw new Error(errorMsg || "Failed to send message");
       }
 
       setSubmitStatus("success");
