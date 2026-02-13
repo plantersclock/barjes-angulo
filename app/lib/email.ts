@@ -97,7 +97,7 @@ export async function sendContactEmail(
 ): Promise<{ success: boolean; error?: string }> {
   try {
     const { error } = await resend.emails.send({
-      from: "Barjes Angulo Website <admin@wamwebdev.com>",
+      from: "Barjes Angulo Website <notify@barjesangulo.com>",
       to: ["wamwebdev@gmail.com", "erik@uncommoncrowd.com"],
       replyTo: data.email,
       subject: generateSubject(data),
