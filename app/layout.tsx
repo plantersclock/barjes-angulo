@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import TopNav from "./components/navs/TopNav";
 import Footer from "./components/navs/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const eloquiaDisplay = localFont({
   src: [
@@ -242,6 +243,7 @@ export default function RootLayout({
 
         {/* Footer */}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
