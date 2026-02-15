@@ -20,7 +20,7 @@ const Hero = () => {
         />
       </div>
       <div className="w-full lg:w-[45%] p-[8%] lg:p-[3.5%]">
-        <h1 className="uppercase mb-4  -mt-6 text-sm xl:text-base">
+        <h1 className="uppercase -mt-2 mb-4  sm:-mt-6 text-sm xl:text-base">
           financial advisor miAmi
         </h1>
         <h2 className="max-w-[85%] lg:max-w-[80%] text-header">

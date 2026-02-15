@@ -112,16 +112,18 @@ const ContactBook = () => {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="relative flex flex-col items-start lg:max-w-[60%] xl:max-w-[55%] 2xl:max-w-[50%] mt-8"
+              className="w-full lg:max-w-[60%] xl:max-w-[55%] 2xl:max-w-[50%] mt-8 inline-flex items-center gap-2 px-4 2xl:px-6 py-3 sm:py-2 2xl:py-3 text-white text-xs 2xl:text-sm font-semibold uppercase tracking-wide hover:opacity-90 transition-opacity"
+              style={{
+                backgroundColor: isSubmitting ? "#666" : "#0096fe",
+                clipPath:
+                  "polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%)",
+              }}
             >
-              <div
-                className="flex items-center justify-center text-white text-sm py-2 px-6 rounded-sm transition-all duration-200 w-full"
-                style={{ backgroundColor: isSubmitting ? "#666" : "#0096fe" }}
-              >
-                <span className="text-lg leading-none mr-2 font-eloquia-text">
-                  →
+              <div className="w-full text-center lg:text-left flex justify-center items-center">
+                <span className="text-lg leading-none mr-2 font-eloquia-text">→</span>
+                <span className="font-eloquia-text text-sm">
+                  {isSubmitting ? "SENDING..." : "REQUEST A BOOKING"}
                 </span>
-                {isSubmitting ? "SENDING..." : "REQUEST A BOOKING"}
               </div>
             </button>
           </form>

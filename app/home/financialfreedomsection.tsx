@@ -70,11 +70,11 @@ const FinancialFreedomSection = () => {
           <div className="font-semibold mt-8 font-eloquia-display">LEGACY</div>
         </div>
       </div>
-      <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-6 md:gap-18 mt-14 sm:mt-18">
+      <div className="pb-8 lg:pb-0 w-full flex flex-col sm:flex-row items-center justify-center gap-6 md:gap-18 mt-14 sm:mt-18">
         <div className="font-eloquia-display font-medium text-2xl 2xl:text-3xl text-center sm:text-left leading-none">
           Ready to make it <span className="block sm:inline">make sense?</span>
         </div>
-        <div className="min-w-full sm:min-w-0 flex flex-col">
+        <div className=" min-w-full sm:min-w-0 flex flex-col">
           <GenericButton
             title="Learn the process"
             linkHref="/for-clients#process"
