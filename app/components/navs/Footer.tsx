@@ -46,7 +46,9 @@ const Footer = () => {
             </Link>
             <div className="flex flex-col font-light gap-1 select-none">
               <Link href="/speaking#keynotes">Keynotes</Link>
-              <Link href="/">Media Kit</Link>
+              <Link href="/files/BarjesAngulo-SpeakerSheet.pdf" target="_blank">
+                Media Kit
+              </Link>
             </div>
           </div>
           <div className="flex flex-col text-base mx-auto lg:mx-0">
