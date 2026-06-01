@@ -37,6 +37,9 @@ const Footer = () => {
             <div className="flex flex-col font-light gap-1 select-none">
               <Link href="/for-clients#process">Process</Link>
               <Link href="/for-clients">Financial Planning</Link>
+              <Link href="/files/BarjesAngulo-ResourceGuide.pdf" target="_blank">
+                Resource Guide
+              </Link>
               <Link href="/for-advisors">For Advisors</Link>
             </div>
           </div>

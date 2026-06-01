@@ -21,6 +21,7 @@ const clientAccessLinks = [
     title: "Charles Schwab",
     href: "https://client.schwab.com/Areas/Access/Login?&kc=y&sim=y",
   },
+  { title: "Resource Guide", href: "/files/BarjesAngulo-ResourceGuide.pdf" },
 ];
 
 const speakingLinks = [
